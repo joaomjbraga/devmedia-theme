@@ -17,14 +17,16 @@ Primeira versão pública do DevMedia Theme para VS Code.
 
 - **DevMedia Dark**: Tema escuro completo com paleta de cores DevMedia
   - Background principal: `#1F1F1F`
-  - Cor destaque: `#C9F31D` (Verde-lima DevMedia)
-  - Status bar: `#C9F31D`
+  - Cor destaque: `#6F9A35` (Verde oliva DevMedia)
+  - Status bar: `#6F9A35`
   - Sidebar: `#1F2F36`
+  - Activity bar: `#1A1A1A`
 - **DevMedia Light**: Tema claro completo com paleta de cores DevMedia
   - Background principal: `#F0F2F5`
   - Cor destaque: `#6F9A35` (Verde oliva DevMedia)
   - Status bar: `#6F9A35`
   - Sidebar: `#EAECF0`
+  - Activity bar: `#E8EAEF`
 
 #### Suporte de Linguagens
 
@@ -54,46 +56,47 @@ Destacamento de sintaxe completo para:
 
 **Activity Bar**
 
-- Background customizado
-- Badge com cor destaque
+- Background customizado (`#1A1A1A` dark / `#E8EAEF` light)
+- Badge com cor destaque (`#6F9A35`)
 - Ícones com cor da marca
 
 **Sidebar**
 
-- Background diferenciado
+- Background diferenciado (`#1F2F36` dark / `#EAECF0` light)
 - Headers de seção destacados
-- Seleção ativa com cor DevMedia
+- Seleção ativa com cor DevMedia (`#6F9A35`)
 
 **Editor**
 
-- Line numbers com destaque ativo
-- Cursor na cor destaque
+- Line numbers com destaque ativo (`#6F9A35` dark / `#1F2F36` light)
+- Cursor destacado
 - Seleção com overlay semi-transparente
-- Find/Replace destacado
+- Find/Replace com destaque em verde-lima (`#C9F31D`)
 - Bracket matching
 - Indent guides ativos
 
 **Terminal**
 
 - Cores ANSI personalizadas
-- Background consistente com o tema
+- Background consistente com o tema (`#1A1A1A` dark / `#F0F2F5` light)
 - Cores otimizadas para logs
 
 **Status Bar**
 
-- Background na cor principal DevMedia
-- Foreground contrastante
+- Background na cor principal DevMedia (`#6F9A35`)
+- Foreground contrastante (`#1A1A1A` dark / `#FAFBFC` light)
 - Modo debugging diferenciado (`#D7840A`)
 
 **Tabs**
 
-- Tab ativo com borda na cor destaque
+- Tab ativo com borda superior na cor destaque (`#6F9A35`)
 - Background diferenciado
 - Hover states
 
 **Git Decorations**
 
 - Modified: Cyan (`#13ECFF` dark / `#0891B2` light)
+- Added: Verde-lima (`#C9F31D` dark / `#6F9A35` light)
 - Deleted: Vermelho (`#ef4444` dark / `#DC2626` light)
 - Untracked: Verde claro (`#A0F31D` dark / `#84CC16` light)
 - Ignored: Cinza (`#6b7280` dark / `#9CA3AF` light)
@@ -143,10 +146,11 @@ Destacamento de sintaxe completo para:
   - Escape characters
   - Invalid/deprecated code
 - **Markdown Completo**:
-  - Headings em destaque
-  - Bold, italic, code
-  - Links sublinhados
-  - Code blocks
+  - Headings em destaque (`#C9F31D` dark / `#0369A1` light)
+  - Bold em laranja (`#D7840A`)
+  - Italic em cyan (`#13ECFF` dark / `#0891B2` light)
+  - Code blocks em verde claro
+  - Links sublinhados em cyan
 - **Widgets e Popups**:
   - Autocomplete/IntelliSense
   - Peek view
@@ -173,6 +177,8 @@ Destacamento de sintaxe completo para:
 - Dois temas (Dark e Light) para diferentes preferências e ambientes
 - Contraste otimizado para leitura prolongada
 - Cores semanticamente significativas (verde para sucesso, vermelho para erro, etc.)
+- Verde oliva (`#6F9A35`) como cor principal de destaque
+- Verde-lima (`#C9F31D`) para elementos secundários e highlights
 
 ### 🔧 Configuração
 

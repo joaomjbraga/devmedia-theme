@@ -4,7 +4,7 @@
 
 Tema não oficial para VS Code inspirado nas cores da [DevMedia](https://www.devmedia.com.br/) - Plataforma para Programadores.
 
-![DevMedia Theme](https://img.shields.io/badge/theme-DevMedia-C9F31D?style=for-the-badge)
+![DevMedia Theme](https://img.shields.io/badge/theme-DevMedia-6F9A35?style=for-the-badge)
 ![Version](https://img.shields.io/badge/version-1.0.0-blue?style=for-the-badge)
 ![License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)
 
@@ -38,13 +38,13 @@ Este tema foi criado por um estudante da DevMedia como iniciativa pessoal, inspi
 
 **Cores Principais:**
 
-- **Destaque Principal**: `#C9F31D` (Verde-lima DevMedia)
-- **Destaque Secundário**: `#6F9A35` (Verde oliva)
+- **Destaque Principal**: `#6F9A35` (Verde oliva DevMedia)
+- **Destaque Secundário**: `#C9F31D` (Verde-lima)
 - **Background Editor**: `#1F1F1F` (Cinza escuro)
 - **Background Activity Bar**: `#1A1A1A` (Preto suave)
 - **Background Sidebar**: `#1F2F36` (Azul escuro)
 - **Texto Principal**: `#F6F7FA` (Branco suave)
-- **Status Bar**: `#C9F31D` (Verde-lima)
+- **Status Bar**: `#6F9A35` (Verde oliva)
 - **Azul Cyan**: `#13ECFF` (Funções e operadores)
 - **Laranja**: `#D7840A` (Números e warnings)
 - **Verde Strings**: `#A0F31D` (Strings)
@@ -58,6 +58,7 @@ Este tema foi criado por um estudante da DevMedia como iniciativa pessoal, inspi
 - **Funções**: `#13ECFF` (Cyan)
 - **Classes**: `#6F9A35` (Verde oliva, negrito)
 - **Operadores**: `#13ECFF` (Cyan)
+- **Propriedades**: `#93c5fd` (Azul claro)
 
 ### Tema Light
 
@@ -82,6 +83,7 @@ Este tema foi criado por um estudante da DevMedia como iniciativa pessoal, inspi
 - **Funções**: `#6F9A35` (Verde oliva)
 - **Classes**: `#D7840A` (Laranja, negrito)
 - **Operadores**: `#0891B2` (Cyan)
+- **Propriedades**: `#0369A1` (Azul)
 
 ## 🚀 Como Usar
 
@@ -92,6 +94,8 @@ Após a instalação:
 3. Comece a programar com estilo! 💪
 
 ## 📸 Screenshots
+
+### DevMedia Dark
 
 #### Example HTML
 
@@ -131,13 +135,11 @@ Após a instalação:
 
 ![Light Theme Preview](screenshots/light-theme-python.png)
 
-### DevMedia Dark
+### Descrição dos Temas
 
-Tema escuro com destaque em verde-lima (#C9F31D), ideal para longas sessões de programação com menos fadiga visual.
+**DevMedia Dark**: Tema escuro com destaque em verde oliva (#6F9A35), ideal para longas sessões de programação com menos fadiga visual. Keywords destacados em verde-lima (#C9F31D) para melhor visibilidade.
 
-### DevMedia Light
-
-Tema claro com destaque em verde oliva (#6F9A35), perfeito para ambientes bem iluminados e preferências por temas claros.
+**DevMedia Light**: Tema claro com destaque em verde oliva (#6F9A35), perfeito para ambientes bem iluminados e preferências por temas claros.
 
 ## 🛠️ Tecnologias Destacadas
 
@@ -179,12 +181,17 @@ Este tema oferece destaque de sintaxe otimizado para:
 
 ## 🎯 Destaques Especiais
 
-- **Python**: Suporte completo para decorators e `self`
-- **Java**: Destaque para annotations
-- **React/JSX**: Componentes destacados
-- **SQL**: Keywords em negrito
+- **Python**: Suporte completo para decorators (`@decorator`) e `self` em classes
+- **Java/Kotlin**: Destaque para annotations (`@Override`, `@Deprecated`)
+- **React/JSX**: Componentes destacados com cores distintas
+- **SQL**: Keywords em negrito para melhor legibilidade
 - **Markdown**: Formatação completa (headings, bold, italic, code, links)
-- **Git**: Decorações coloridas para status (modified, deleted, untracked, etc.)
+- **Git**: Decorações coloridas para status:
+  - Modified: Cyan
+  - Added: Verde
+  - Deleted: Vermelho
+  - Untracked: Verde claro
+  - Conflicting: Laranja
 
 ## 🤝 Contribuindo
 
