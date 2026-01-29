@@ -346,7 +346,7 @@
         "keyword.control.from"
       ],
       "settings": {
-        "foreground": "#a855f7",
+        "foreground": "#D7840A",
         "fontStyle": "bold"
       }
     },
@@ -587,7 +587,7 @@
         "support.function.magic.python"
       ],
       "settings": {
-        "foreground": "#a855f7",
+        "foreground": "#D7840A",
         "fontStyle": "italic"
       }
     },
