@@ -593,13 +593,51 @@
     },
     {
       "name": "Java Annotations",
-      "scope": [
-        "storage.type.annotation.java"
-      ],
-      "settings": {
-        "foreground": "#C9F31D"
-      }
+        "scope": ["storage.type.annotation.java"],
+        "settings": { "foreground": "#D7840A" }
     },
+    {
+    "name": "Java Keywords",
+    "scope": ["keyword.control.java", "keyword.other.java"],
+    "settings": { "foreground": "#13ECFF", "fontStyle": "bold" }
+  },
+  {
+    "name": "Java Strings",
+    "scope": ["string.quoted.double.java", "string.quoted.single.java"],
+    "settings": { "foreground": "#C9F31D" }
+  },
+  {
+    "name": "Java Numbers",
+    "scope": ["constant.numeric.java"],
+    "settings": { "foreground": "#A0F31D" }
+  },
+  {
+    "name": "Java Comments",
+    "scope": ["comment.line.java", "comment.block.java"],
+    "settings": { "foreground": "#6F9A35", "fontStyle": "italic" }
+  },
+  {
+    "name": "Java Types",
+    "scope": ["support.class.java", "support.type.primitive.java"],
+    "settings": { "foreground": "#F6F7FA" }
+  },
+  {
+    "name": "Java Operators",
+    "scope": ["keyword.operator.java"],
+    "settings": { "foreground": "#1F2F36" }
+  },
+  {
+    "name": "Java Brackets/Delimiters",
+    "scope": ["punctuation.definition.block.java", "punctuation.definition.array.java"],
+    "settings": { "foreground": "#1F1F1F" }
+  },
+  {
+    "name": "Java Annotations Metadata",
+    "scope": ["meta.annotation.java"],
+    "settings": { "foreground": "#2C2C2C" }
+  }
+  ,
+
     {
       "name": "SQL Keywords",
       "scope": [
