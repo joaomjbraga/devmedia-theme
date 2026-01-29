@@ -1,0 +1,44 @@
+{
+  "name": "devmedia-theme",
+  "displayName": "DevMedia Theme",
+  "description": "Tema inspirado nas cores da DevMedia - Plataforma para Programadores",
+  "version": "1.0.0",
+  "publisher": "joaomjbraga",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "devmedia",
+    "dark theme",
+    "programming",
+    "brasil"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "DevMedia Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/devmedia-dark-color-theme.json"
+      },
+      {
+        "label": "DevMedia Light",
+        "uiTheme": "vs",
+        "path": "./themes/devmedia-light-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joaomjbraga/devmedia-theme"
+  },
+  "author": {
+    "name": "João Braga",
+    "url": "https://github.com/joaomjbraga"
+  },
+  "license": "MIT",
+  "icon": "icon.png"
+}
