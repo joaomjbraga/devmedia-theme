@@ -239,14 +239,13 @@ Encontrou um bug ou tem uma sugestão?
 
 ---
 
-## License
+## Suporte
+
+Reporte issues em:
+[https://github.com/joaomjbraga/devmedia-theme/issues](https://github.com/joaomjbraga/devmedia-theme/issues)
+
+| [![João M J Braga](https://github.com/joaomjbraga.png?size=100)](https://github.com/joaomjbraga)
 
 **Aprenda a Programar de Verdade com DevMedia! 🚀**
 
 Se você gostou deste tema, considere deixar uma ⭐ no repositório!
-
-## Equipe
-
-This theme is maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/joaomjbraga/devmedia-theme/contributors).
-
-| [![João M J Braga](https://github.com/joaomjbraga.png?size=100)](https://github.com/joaomjbraga)
