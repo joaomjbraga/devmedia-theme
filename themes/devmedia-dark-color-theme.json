@@ -720,7 +720,8 @@
         "keyword.other.sql"
       ],
       "settings": {
-        "foreground": "#C9F31D"
+        //"foreground": "#C9F31D"
+        "foreground": "#93c5fd"
       }
     },
     {
