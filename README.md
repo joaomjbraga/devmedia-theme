@@ -80,7 +80,21 @@ Após a instalação:
 
 ### DevMedia Light
 
-![Light Theme Preview](screenshots/light-theme.png)
+#### Example HTML
+
+![Light Theme Preview](screenshots/light-theme-html.png)
+
+#### Example CSS
+
+![Light Theme Preview](screenshots/light-theme-css.png)
+
+#### Example JavaScript
+
+![Light Theme Preview](screenshots/light-theme-javascript.png)
+
+#### Example PYTHON
+
+![Light Theme Preview](screenshots/light-theme-python.png)
 
 ## 🛠️ Tecnologias Destacadas
 
