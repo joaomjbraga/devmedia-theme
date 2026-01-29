@@ -109,14 +109,6 @@ Após a instalação:
 
 ![Dark Theme Preview](screenshots/dark-theme-node.png)
 
-#### Example PHP
-
-![Dark Theme Preview](screenshots/dark-theme-php.png)
-
-#### Example PYTHON
-
-![Dark Theme Preview](screenshots/dark-theme-python.png)
-
 ### DevMedia Light
 
 #### Example HTML
@@ -126,14 +118,6 @@ Após a instalação:
 #### Example CSS
 
 ![Light Theme Preview](screenshots/light-theme-css.png)
-
-#### Example JavaScript
-
-![Light Theme Preview](screenshots/light-theme-javascript.png)
-
-#### Example PYTHON
-
-![Light Theme Preview](screenshots/light-theme-python.png)
 
 ### Descrição dos Temas
 
