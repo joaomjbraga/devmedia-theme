@@ -1,6 +1,6 @@
 # DevMedia Theme 🎨
 
-Tema oficial para VS Code inspirado nas cores da [DevMedia](https://www.devmedia.com.br/) - Plataforma para Programadores.
+Tema não oficial para VS Code inspirado nas cores da [DevMedia](https://www.devmedia.com.br/) - Plataforma para Programadores.
 
 ![DevMedia Theme](https://img.shields.io/badge/theme-DevMedia-ff6b35?style=for-the-badge)
 ![Version](https://img.shields.io/badge/version-1.0.0-blue?style=for-the-badge)
@@ -28,35 +28,10 @@ Este tema foi criado por um estudante da DevMedia como iniciativa pessoal, inspi
   - Angular / Vue.js
   - E muitas outras!
 
-## 📦 Instalação
-
-### Via VS Code Marketplace (quando publicado)
-
-1. Abra o VS Code
-2. Vá em Extensions (Ctrl+Shift+X)
-3. Procure por "DevMedia Theme"
-4. Clique em Install
-
-### Instalação Manual
-
-1. Clone este repositório:
-```bash
-git clone https://github.com/joaomjbraga/devmedia-theme.git
-```
-
-2. Copie a pasta para o diretório de extensões do VS Code:
-   - **Windows**: `%USERPROFILE%\.vscode\extensions\`
-   - **macOS/Linux**: `~/.vscode/extensions/`
-
-3. Reinicie o VS Code
-
-4. Ative o tema:
-   - Pressione `Ctrl+K Ctrl+T` (ou `Cmd+K Cmd+T` no macOS)
-   - Selecione "DevMedia Dark" ou "DevMedia Light"
-
 ## 🎨 Paleta de Cores
 
 ### Tema Dark
+
 - **Principal**: `#ff6b35` (Laranja DevMedia)
 - **Background**: `#1a1d29` (Azul escuro)
 - **Sidebar**: `#16181f`
@@ -64,6 +39,7 @@ git clone https://github.com/joaomjbraga/devmedia-theme.git
 - **Destaque**: `#2563eb` (Azul)
 
 ### Tema Light
+
 - **Principal**: `#ff6b35` (Laranja DevMedia)
 - **Background**: `#ffffff` (Branco)
 - **Sidebar**: `#fafafa`
@@ -81,9 +57,29 @@ Após a instalação:
 ## 📸 Screenshots
 
 ### DevMedia Dark
-![Dark Theme Preview](screenshots/dark-theme.png)
+
+#### Example HTML
+
+![Dark Theme Preview](screenshots/dark-theme-html.png)
+
+#### Example CSS
+
+![Dark Theme Preview](screenshots/dark-theme-css.png)
+
+#### Example JavaScript
+
+![Dark Theme Preview](screenshots/dark-theme-node.png)
+
+#### Example PHP
+
+![Dark Theme Preview](screenshots/dark-theme-php.png)
+
+#### Example PYTHON
+
+![Dark Theme Preview](screenshots/dark-theme-python.png)
 
 ### DevMedia Light
+
 ![Light Theme Preview](screenshots/light-theme.png)
 
 ## 🛠️ Tecnologias Destacadas
@@ -109,6 +105,7 @@ Contribuições são bem-vindas! Sinta-se à vontade para:
 ## 📝 Changelog
 
 ### v1.0.0 (2026-01-29)
+
 - 🎉 Lançamento inicial
 - ✨ Tema Dark completo
 - ✨ Tema Light completo
@@ -118,6 +115,7 @@ Contribuições são bem-vindas! Sinta-se à vontade para:
 ## 👤 Autor
 
 **João Braga**
+
 - GitHub: [@joaomjbraga](https://github.com/joaomjbraga)
 - Estudante DevMedia
 
