@@ -1,4 +1,6 @@
-# DevMedia Theme 🎨
+# DevMedia Theme
+
+![DevMedia](screenshots/Devmedia.png)
 
 Tema não oficial para VS Code inspirado nas cores da [DevMedia](https://www.devmedia.com.br/) - Plataforma para Programadores.
 
