@@ -51,7 +51,7 @@
     "editorGroupHeader.tabsBackground": "#1A1A1A",
     "editorGroupHeader.tabsBorder": "#2C2C2C",
     "editorGroupHeader.noTabsBackground": "#1A1A1A",
-    "editorLineNumber.foreground": "#4a4a4a",
+    "editorLineNumber.foreground": "#656565",
     "editorLineNumber.activeForeground": "#6F9A35",
     "editor.selectionBackground": "#6F9A3560",
     "editor.selectionHighlightBackground": "#6F9A3540",
@@ -134,7 +134,7 @@
     "button.secondaryBackground": "#2C2C2C",
     "button.secondaryForeground": "#F6F7FA",
     "button.secondaryHoverBackground": "#3A3A3A",
-    "input.background": "#0d1316",
+    "input.background": "#1a1a1a",
     "input.border": "#0c0c0c",
     "input.foreground": "#F6F7FA",
     "input.placeholderForeground": "#808080",
@@ -269,7 +269,7 @@
         "punctuation.definition.comment"
       ],
       "settings": {
-        "foreground": "#6b7280",
+        "foreground": "#7b8290",
         "fontStyle": "italic"
       }
     },
