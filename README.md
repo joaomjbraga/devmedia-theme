@@ -85,14 +85,6 @@ Este tema foi criado por um estudante da DevMedia como iniciativa pessoal, inspi
 - **Operadores**: `#0891B2` (Cyan)
 - **Propriedades**: `#0369A1` (Azul)
 
-## 🚀 Como Usar
-
-Após a instalação:
-
-1. Abra as configurações de tema: `Ctrl/Cmd + K, Ctrl/Cmd + T`
-2. Selecione **DevMedia Dark** ou **DevMedia Light**
-3. Comece a programar com estilo! 💪
-
 ## 📸 Screenshots
 
 ### DevMedia Dark
@@ -101,29 +93,11 @@ Após a instalação:
 
 ![Dark Theme Preview](screenshots/dark-theme-html.png)
 
-#### Example CSS
-
-![Dark Theme Preview](screenshots/dark-theme-css.png)
-
-#### Example JavaScript
-
-![Dark Theme Preview](screenshots/dark-theme-node.png)
-
 ### DevMedia Light
 
 #### Example HTML
 
 ![Light Theme Preview](screenshots/light-theme-html.png)
-
-#### Example CSS
-
-![Light Theme Preview](screenshots/light-theme-css.png)
-
-### Descrição dos Temas
-
-**DevMedia Dark**: Tema escuro com destaque em verde oliva (#6F9A35), ideal para longas sessões de programação com menos fadiga visual. Keywords destacados em verde-lima (#C9F31D) para melhor visibilidade.
-
-**DevMedia Light**: Tema claro com destaque em verde oliva (#6F9A35), perfeito para ambientes bem iluminados e preferências por temas claros.
 
 ## 🛠️ Tecnologias Destacadas
 
@@ -163,20 +137,6 @@ Este tema oferece destaque de sintaxe otimizado para:
 - RegEx
 - Docker
 
-## 🎯 Destaques Especiais
-
-- **Python**: Suporte completo para decorators (`@decorator`) e `self` em classes
-- **Java/Kotlin**: Destaque para annotations (`@Override`, `@Deprecated`)
-- **React/JSX**: Componentes destacados com cores distintas
-- **SQL**: Keywords em negrito para melhor legibilidade
-- **Markdown**: Formatação completa (headings, bold, italic, code, links)
-- **Git**: Decorações coloridas para status:
-  - Modified: Cyan
-  - Added: Verde
-  - Deleted: Vermelho
-  - Untracked: Verde claro
-  - Conflicting: Laranja
-
 ## 🤝 Contribuindo
 
 Contribuições são bem-vindas! Sinta-se à vontade para:
@@ -198,17 +158,6 @@ Contribuições são bem-vindas! Sinta-se à vontade para:
 
 Veja o arquivo [CHANGELOG.md](CHANGELOG.md) para detalhes sobre as versões e atualizações.
 
-## 👤 Autor
-
-**João Braga**
-
-- GitHub: [@joaomjbraga](https://github.com/joaomjbraga)
-- Estudante DevMedia
-
-## 📄 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
 ## ⚠️ Aviso
 
 Este é um projeto pessoal criado por um estudante da DevMedia. **Não é um tema oficial** da plataforma DevMedia. Todas as marcas e logos pertencem aos seus respectivos proprietários.
@@ -218,15 +167,6 @@ Este é um projeto pessoal criado por um estudante da DevMedia. **Não é um tem
 - À [DevMedia](https://www.devmedia.com.br/) pela excelente plataforma de ensino
 - À comunidade de desenvolvedores que contribui para o crescimento da tecnologia no Brasil
 - A todos que testaram e deram feedback sobre o tema
-
-## 🔧 Instalação Manual
-
-Se preferir instalar manualmente:
-
-1. Clone este repositório
-2. Copie a pasta do tema para `~/.vscode/extensions/`
-3. Reinicie o VS Code
-4. Selecione o tema nas configurações
 
 ## 🐛 Reportar Problemas
 
@@ -249,3 +189,7 @@ Reporte issues em:
 **Aprenda a Programar de Verdade com DevMedia! 🚀**
 
 Se você gostou deste tema, considere deixar uma ⭐ no repositório!
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.

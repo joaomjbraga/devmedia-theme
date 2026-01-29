@@ -15,13 +15,13 @@ Primeira versão pública do DevMedia Theme para VS Code.
 
 #### Temas
 
-- **DevMedia Dark**: Tema escuro completo com paleta de cores DevMedia
+- **DevMedia Dark**:
   - Background principal: `#1F1F1F`
   - Cor destaque: `#6F9A35` (Verde oliva DevMedia)
   - Status bar: `#6F9A35`
   - Sidebar: `#1F2F36`
   - Activity bar: `#1A1A1A`
-- **DevMedia Light**: Tema claro completo com paleta de cores DevMedia
+- **DevMedia Light**:
   - Background principal: `#F0F2F5`
   - Cor destaque: `#6F9A35` (Verde oliva DevMedia)
   - Status bar: `#6F9A35`
@@ -30,7 +30,7 @@ Primeira versão pública do DevMedia Theme para VS Code.
 
 #### Suporte de Linguagens
 
-Destacamento de sintaxe completo para:
+Destacamento de sintaxe para:
 
 - **Web**: HTML, CSS, SCSS/SASS
 - **JavaScript/TypeScript**: Incluindo ES6+, async/await
@@ -166,25 +166,18 @@ Destacamento de sintaxe completo para:
 
 ### 📚 Documentação
 
-- README.md completo em português
-- CHANGELOG.md detalhado
-- Licença MIT incluída
-- Screenshots de exemplo
+- README.md
+- CHANGELOG.md
+- Licença MIT
+- Screenshots
 
 ### 🎨 Design
 
 - Paleta de cores consistente baseada na identidade visual DevMedia
 - Dois temas (Dark e Light) para diferentes preferências e ambientes
-- Contraste otimizado para leitura prolongada
 - Cores semanticamente significativas (verde para sucesso, vermelho para erro, etc.)
 - Verde oliva (`#6F9A35`) como cor principal de destaque
 - Verde-lima (`#C9F31D`) para elementos secundários e highlights
-
-### 🔧 Configuração
-
-- Temas prontos para uso
-- Sem necessidade de configuração adicional
-- Compatível com VS Code 1.60.0+
 
 ---
 
