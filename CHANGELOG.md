@@ -7,45 +7,219 @@ e este projeto adere ao [Semantic Versioning](https://semver.org/lang/pt-BR/).
 
 ## [1.0.0] - 2026-01-29
 
-### Adicionado
-- Tema Dark completo com paleta de cores DevMedia
-- Tema Light completo com paleta de cores DevMedia
-- Suporte para sintaxe de múltiplas linguagens:
-  - HTML & CSS
-  - JavaScript / TypeScript
-  - React / React Native / JSX
-  - Node.js
-  - Python (incluindo decorators e self)
-  - Java (incluindo annotations)
-  - PHP
-  - SQL / MySQL
-  - C# / .NET
-  - Dart / Flutter
-  - Angular / Vue.js
-  - Kotlin
-  - Markdown
-- Destaque personalizado para:
-  - Comentários (itálico)
-  - Keywords (negrito)
-  - Strings
-  - Números
-  - Funções
-  - Classes
-  - Operadores
-- Cores otimizadas para:
-  - Status bar com laranja DevMedia (#ff6b35)
-  - Activity bar com fundo escuro
-  - Sidebar com tons neutros
-  - Terminal com cores ANSI personalizadas
-  - Git decorations
-- Documentação completa em português
-- Licença MIT
+### 🎉 Lançamento Inicial
 
-### Características
-- Paleta de cores inspirada na identidade visual da DevMedia
-- Dois temas (Dark e Light) para diferentes preferências
-- Cores consistentes em toda a interface
-- Ícones e badges destacados com a cor principal
-- Suporte completo para as tecnologias ensinadas na DevMedia
+Primeira versão pública do DevMedia Theme para VS Code.
+
+### ✨ Adicionado
+
+#### Temas
+
+- **DevMedia Dark**: Tema escuro completo com paleta de cores DevMedia
+  - Background principal: `#1F1F1F`
+  - Cor destaque: `#C9F31D` (Verde-lima DevMedia)
+  - Status bar: `#C9F31D`
+  - Sidebar: `#1F2F36`
+- **DevMedia Light**: Tema claro completo com paleta de cores DevMedia
+  - Background principal: `#F0F2F5`
+  - Cor destaque: `#6F9A35` (Verde oliva DevMedia)
+  - Status bar: `#6F9A35`
+  - Sidebar: `#EAECF0`
+
+#### Suporte de Linguagens
+
+Destacamento de sintaxe completo para:
+
+- **Web**: HTML, CSS, SCSS/SASS
+- **JavaScript/TypeScript**: Incluindo ES6+, async/await
+- **React**: JSX/TSX com componentes destacados
+- **Node.js**: Express, módulos, imports
+- **Python**:
+  - Decorators (`@decorator`)
+  - Self destacado em classes
+  - Type hints
+- **Java**:
+  - Annotations (`@Override`, `@Deprecated`)
+  - Classes e interfaces
+- **PHP**: Sintaxe moderna
+- **SQL/MySQL**: Keywords em negrito, comandos DML/DDL
+- **C#/.NET**: Classes, attributes, LINQ
+- **Dart/Flutter**: Widgets e componentes
+- **Angular/Vue.js**: Templates e diretivas
+- **Kotlin**: Data classes, extensions
+- **Markdown**: Headings, bold, italic, code blocks, links
+- **JSON**: Keys e values diferenciados
+
+#### Elementos de Interface
+
+**Activity Bar**
+
+- Background customizado
+- Badge com cor destaque
+- Ícones com cor da marca
+
+**Sidebar**
+
+- Background diferenciado
+- Headers de seção destacados
+- Seleção ativa com cor DevMedia
+
+**Editor**
+
+- Line numbers com destaque ativo
+- Cursor na cor destaque
+- Seleção com overlay semi-transparente
+- Find/Replace destacado
+- Bracket matching
+- Indent guides ativos
+
+**Terminal**
+
+- Cores ANSI personalizadas
+- Background consistente com o tema
+- Cores otimizadas para logs
+
+**Status Bar**
+
+- Background na cor principal DevMedia
+- Foreground contrastante
+- Modo debugging diferenciado (`#D7840A`)
+
+**Tabs**
+
+- Tab ativo com borda na cor destaque
+- Background diferenciado
+- Hover states
+
+**Git Decorations**
+
+- Modified: Cyan (`#13ECFF` dark / `#0891B2` light)
+- Deleted: Vermelho (`#ef4444` dark / `#DC2626` light)
+- Untracked: Verde claro (`#A0F31D` dark / `#84CC16` light)
+- Ignored: Cinza (`#6b7280` dark / `#9CA3AF` light)
+- Conflicting: Laranja (`#D7840A`)
+
+#### Tokens de Sintaxe
+
+**Tema Dark:**
+
+- Comentários: `#6b7280` (itálico)
+- Strings: `#A0F31D` (verde claro)
+- Números: `#D7840A` (laranja)
+- Keywords: `#C9F31D` (verde-lima, negrito)
+- Operadores: `#13ECFF` (cyan)
+- Funções: `#13ECFF` (cyan)
+- Classes: `#6F9A35` (verde oliva, negrito)
+- Constantes: `#C9F31D` (verde-lima)
+- Propriedades: `#93c5fd` (azul claro)
+- HTML Tags: `#C9F31D`
+- HTML Attributes: `#13ECFF`
+- CSS Classes: `#6F9A35`
+- CSS IDs: `#D7840A`
+- JSON Keys: `#13ECFF`
+
+**Tema Light:**
+
+- Comentários: `#6B7280` (itálico)
+- Strings: `#16A34A` (verde)
+- Números: `#D7840A` (laranja)
+- Keywords: `#0369A1` (azul, negrito)
+- Operadores: `#0891B2` (cyan)
+- Funções: `#6F9A35` (verde oliva)
+- Classes: `#D7840A` (laranja, negrito)
+- Constantes: `#9333EA` (roxo)
+- Propriedades: `#0369A1` (azul)
+- HTML Tags: `#0369A1`
+- HTML Attributes: `#D7840A`
+- CSS Classes: `#6F9A35`
+- CSS IDs: `#D7840A`
+- JSON Keys: `#0369A1`
+
+#### Recursos Especiais
+
+- **Syntax Highlighting Avançado**:
+  - Template literals com expressões
+  - RegEx patterns
+  - Escape characters
+  - Invalid/deprecated code
+- **Markdown Completo**:
+  - Headings em destaque
+  - Bold, italic, code
+  - Links sublinhados
+  - Code blocks
+- **Widgets e Popups**:
+  - Autocomplete/IntelliSense
+  - Peek view
+  - Hover tooltips
+  - Notifications
+- **Outros**:
+  - Breadcrumbs
+  - Menus contextuais
+  - Input fields
+  - Buttons e badges
+  - Progress bars
+  - Scrollbars customizados
+
+### 📚 Documentação
+
+- README.md completo em português
+- CHANGELOG.md detalhado
+- Licença MIT incluída
+- Screenshots de exemplo
+
+### 🎨 Design
+
+- Paleta de cores consistente baseada na identidade visual DevMedia
+- Dois temas (Dark e Light) para diferentes preferências e ambientes
+- Contraste otimizado para leitura prolongada
+- Cores semanticamente significativas (verde para sucesso, vermelho para erro, etc.)
+
+### 🔧 Configuração
+
+- Temas prontos para uso
+- Sem necessidade de configuração adicional
+- Compatível com VS Code 1.60.0+
+
+---
+
+## [Unreleased]
+
+### 🚧 Em Desenvolvimento
+
+Recursos planejados para versões futuras:
+
+- [ ] Variação de alto contraste
+- [ ] Suporte para mais extensões populares
+- [ ] Tema para terminal externo
+- [ ] Ícones customizados de arquivo
+- [ ] Melhorias de acessibilidade
+- [ ] Suporte para Jupyter Notebooks
+- [ ] Tema para browser DevTools
+
+### 💡 Sugestões da Comunidade
+
+Se você tem sugestões de melhorias, abra uma issue no GitHub!
+
+---
+
+## Formato do Versionamento
+
+Este projeto segue o [Semantic Versioning](https://semver.org/lang/pt-BR/):
+
+- **MAJOR**: Mudanças incompatíveis na API
+- **MINOR**: Adição de funcionalidades compatíveis
+- **PATCH**: Correções de bugs compatíveis
+
+### Tipos de Mudanças
+
+- **Adicionado**: Novas funcionalidades
+- **Modificado**: Mudanças em funcionalidades existentes
+- **Depreciado**: Funcionalidades que serão removidas
+- **Removido**: Funcionalidades removidas
+- **Corrigido**: Correções de bugs
+- **Segurança**: Vulnerabilidades corrigidas
+
+---
 
 [1.0.0]: https://github.com/joaomjbraga/devmedia-theme/releases/tag/v1.0.0
+[Unreleased]: https://github.com/joaomjbraga/devmedia-theme/compare/v1.0.0...HEAD

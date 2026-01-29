@@ -2,7 +2,7 @@
 
 Tema não oficial para VS Code inspirado nas cores da [DevMedia](https://www.devmedia.com.br/) - Plataforma para Programadores.
 
-![DevMedia Theme](https://img.shields.io/badge/theme-DevMedia-ff6b35?style=for-the-badge)
+![DevMedia Theme](https://img.shields.io/badge/theme-DevMedia-C9F31D?style=for-the-badge)
 ![Version](https://img.shields.io/badge/version-1.0.0-blue?style=for-the-badge)
 ![License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)
 
@@ -17,34 +17,69 @@ Este tema foi criado por um estudante da DevMedia como iniciativa pessoal, inspi
 - 💻 **Suporte completo para as principais linguagens**:
   - HTML & CSS
   - JavaScript / TypeScript
-  - React / React Native
+  - React / React Native / JSX
   - Node.js / Express
-  - Python
-  - Java / Kotlin
+  - Python (com decorators e self)
+  - Java / Kotlin (com annotations)
   - PHP
   - SQL / MySQL
   - C# / .NET
   - Dart / Flutter
   - Angular / Vue.js
+  - Markdown
+  - JSON
   - E muitas outras!
 
 ## 🎨 Paleta de Cores
 
 ### Tema Dark
 
-- **Principal**: `#ff6b35` (Laranja DevMedia)
-- **Background**: `#1a1d29` (Azul escuro)
-- **Sidebar**: `#16181f`
-- **Texto**: `#e8e8e8`
-- **Destaque**: `#2563eb` (Azul)
+**Cores Principais:**
+
+- **Destaque Principal**: `#C9F31D` (Verde-lima DevMedia)
+- **Destaque Secundário**: `#6F9A35` (Verde oliva)
+- **Background Editor**: `#1F1F1F` (Cinza escuro)
+- **Background Activity Bar**: `#1A1A1A` (Preto suave)
+- **Background Sidebar**: `#1F2F36` (Azul escuro)
+- **Texto Principal**: `#F6F7FA` (Branco suave)
+- **Status Bar**: `#C9F31D` (Verde-lima)
+- **Azul Cyan**: `#13ECFF` (Funções e operadores)
+- **Laranja**: `#D7840A` (Números e warnings)
+- **Verde Strings**: `#A0F31D` (Strings)
+
+**Sintaxe:**
+
+- **Comentários**: `#6b7280` (Cinza, itálico)
+- **Strings**: `#A0F31D` (Verde claro)
+- **Números**: `#D7840A` (Laranja)
+- **Keywords**: `#C9F31D` (Verde-lima, negrito)
+- **Funções**: `#13ECFF` (Cyan)
+- **Classes**: `#6F9A35` (Verde oliva, negrito)
+- **Operadores**: `#13ECFF` (Cyan)
 
 ### Tema Light
 
-- **Principal**: `#ff6b35` (Laranja DevMedia)
-- **Background**: `#ffffff` (Branco)
-- **Sidebar**: `#fafafa`
-- **Texto**: `#1a1d29`
-- **Destaque**: `#2563eb` (Azul)
+**Cores Principais:**
+
+- **Destaque Principal**: `#6F9A35` (Verde oliva DevMedia)
+- **Background Editor**: `#F0F2F5` (Cinza muito claro)
+- **Background Activity Bar**: `#E8EAEF` (Cinza claro)
+- **Background Sidebar**: `#EAECF0` (Cinza claro)
+- **Texto Principal**: `#1F2F36` (Azul escuro)
+- **Status Bar**: `#6F9A35` (Verde oliva)
+- **Azul**: `#0369A1` (Keywords e links)
+- **Cyan**: `#0891B2` (Operadores)
+- **Laranja**: `#D7840A` (Classes e números)
+
+**Sintaxe:**
+
+- **Comentários**: `#6B7280` (Cinza, itálico)
+- **Strings**: `#16A34A` (Verde)
+- **Números**: `#D7840A` (Laranja)
+- **Keywords**: `#0369A1` (Azul, negrito)
+- **Funções**: `#6F9A35` (Verde oliva)
+- **Classes**: `#D7840A` (Laranja, negrito)
+- **Operadores**: `#0891B2` (Cyan)
 
 ## 🚀 Como Usar
 
@@ -55,8 +90,6 @@ Após a instalação:
 3. Comece a programar com estilo! 💪
 
 ## 📸 Screenshots
-
-### DevMedia Dark
 
 #### Example HTML
 
@@ -96,15 +129,60 @@ Após a instalação:
 
 ![Light Theme Preview](screenshots/light-theme-python.png)
 
+### DevMedia Dark
+
+Tema escuro com destaque em verde-lima (#C9F31D), ideal para longas sessões de programação com menos fadiga visual.
+
+### DevMedia Light
+
+Tema claro com destaque em verde oliva (#6F9A35), perfeito para ambientes bem iluminados e preferências por temas claros.
+
 ## 🛠️ Tecnologias Destacadas
 
 Este tema oferece destaque de sintaxe otimizado para:
 
-- **Frontend**: HTML, CSS, JavaScript, TypeScript, React, Angular, Vue.js
-- **Backend**: Node.js, Python, Java, PHP, C#, .NET
-- **Mobile**: React Native, Flutter, Dart, Kotlin, Android
-- **Banco de Dados**: SQL, MySQL, PostgreSQL
-- **Outros**: JSON, Markdown, Git, Docker
+### Frontend
+
+- HTML, CSS, SCSS/SASS
+- JavaScript, TypeScript
+- React, Angular, Vue.js
+- JSX/TSX
+
+### Backend
+
+- Node.js, Express
+- Python (com suporte a decorators)
+- Java (com suporte a annotations)
+- PHP
+- C#, .NET
+
+### Mobile
+
+- React Native
+- Flutter, Dart
+- Kotlin
+
+### Banco de Dados
+
+- SQL, MySQL
+- PostgreSQL
+
+### Outras Ferramentas
+
+- JSON
+- Markdown
+- Git (decorações coloridas)
+- RegEx
+- Docker
+
+## 🎯 Destaques Especiais
+
+- **Python**: Suporte completo para decorators e `self`
+- **Java**: Destaque para annotations
+- **React/JSX**: Componentes destacados
+- **SQL**: Keywords em negrito
+- **Markdown**: Formatação completa (headings, bold, italic, code, links)
+- **Git**: Decorações coloridas para status (modified, deleted, untracked, etc.)
 
 ## 🤝 Contribuindo
 
@@ -116,15 +194,16 @@ Contribuições são bem-vindas! Sinta-se à vontade para:
 4. Push para a branch (`git push origin feature/MinhaFeature`)
 5. Abrir um Pull Request
 
+### Sugestões de Melhorias
+
+- Adicionar mais linguagens
+- Melhorar contraste de cores específicas
+- Adicionar variações de tema (ex: alto contraste)
+- Reportar bugs ou inconsistências
+
 ## 📝 Changelog
 
-### v1.0.0 (2026-01-29)
-
-- 🎉 Lançamento inicial
-- ✨ Tema Dark completo
-- ✨ Tema Light completo
-- 🎨 Paleta de cores baseada na DevMedia
-- 💻 Suporte para múltiplas linguagens
+Veja o arquivo [CHANGELOG.md](CHANGELOG.md) para detalhes sobre as versões e atualizações.
 
 ## 👤 Autor
 
@@ -145,6 +224,25 @@ Este é um projeto pessoal criado por um estudante da DevMedia. **Não é um tem
 
 - À [DevMedia](https://www.devmedia.com.br/) pela excelente plataforma de ensino
 - À comunidade de desenvolvedores que contribui para o crescimento da tecnologia no Brasil
+- A todos que testaram e deram feedback sobre o tema
+
+## 🔧 Instalação Manual
+
+Se preferir instalar manualmente:
+
+1. Clone este repositório
+2. Copie a pasta do tema para `~/.vscode/extensions/`
+3. Reinicie o VS Code
+4. Selecione o tema nas configurações
+
+## 🐛 Reportar Problemas
+
+Encontrou um bug ou tem uma sugestão?
+
+- Abra uma [issue no GitHub](https://github.com/joaomjbraga/devmedia-theme/issues)
+- Descreva o problema detalhadamente
+- Inclua screenshots se possível
+- Mencione sua versão do VS Code
 
 ---
 
