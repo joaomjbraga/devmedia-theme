@@ -29,7 +29,7 @@
     "list.highlightForeground": "#6F9A35",
     "statusBar.background": "#6F9A35",
     "statusBar.foreground": "#1A1A1A",
-    "statusBar.border": "#A0F31D",
+    "statusBar.border": "#6F9A35",
     "statusBar.noFolderBackground": "#6F9A35",
     "statusBar.debuggingBackground": "#D7840A",
     "statusBar.debuggingForeground": "#1A1A1A",
@@ -128,7 +128,7 @@
     "terminal.ansiWhite": "#F6F7FA",
     "terminal.ansiYellow": "#D7840A",
     "terminal.selectionBackground": "#6F9A3550",
-    "button.background": "#C9F31D",
+    "button.background": "#6F9A35",
     "button.foreground": "#1A1A1A",
     "button.hoverBackground": "#A0F31D",
     "button.secondaryBackground": "#2C2C2C",
@@ -649,6 +649,48 @@
       }
     },
     {
+      "name": "Java Import Statements",
+      "scope": [
+        "meta.import.java",
+        "storage.modifier.import.java"
+      ],
+      "settings": {
+        "foreground": "#D7840A",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Java Package Names",
+      "scope": [
+        "entity.name.package.java",
+        "support.other.package.java"
+      ],
+      "settings": {
+        "foreground": "#13ECFF"
+      }
+    },
+    {
+      "name": "Java Imported Classes",
+      "scope": [
+        "entity.name.type.class.java",
+        "support.class.java"
+      ],
+      "settings": {
+        "foreground": "#6F9A35",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Java Static Imports",
+      "scope": [
+        "storage.modifier.static.java"
+      ],
+      "settings": {
+        "foreground": "#D7840A",
+        "fontStyle": "italic"
+      }
+    },
+    {
       "name": "Java/Kotlin Keywords",
       "scope": [
         "keyword.control.java",
@@ -706,10 +748,33 @@
       "name": "PHP Classes",
       "scope": [
         "entity.name.type.class.php",
-        "support.class.php"
+        "support.class.php",
+        "variable.other.class.php"
       ],
       "settings": {
-        "foreground": "#6F9A35"
+        "foreground": "#6F9A35",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "PHP Constants",
+      "scope": [
+        "constant.other.php",
+        "support.constant.core.php",
+        "variable.other.constant.php"
+      ],
+      "settings": {
+        "foreground": "#C9F31D"
+      }
+    },
+    {
+      "name": "PHP Methods",
+      "scope": [
+        "entity.name.function.method.php",
+        "support.function.magic.php"
+      ],
+      "settings": {
+        "foreground": "#13ECFF"
       }
     },
     {
