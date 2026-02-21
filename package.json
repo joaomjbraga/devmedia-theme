@@ -1,8 +1,8 @@
 {
   "name": "devmedia-theme",
   "displayName": "DevMedia Theme",
-  "description": "Tema inspirado nas cores da DevMedia - Plataforma para Programadores",
-  "version": "1.0.0",
+  "description": "Tema inspirado na DevMedia - Plataforma para Programadores",
+  "version": "1.1.0",
   "publisher": "joaomjbraga",
   "engines": {
     "vscode": "^1.60.0"

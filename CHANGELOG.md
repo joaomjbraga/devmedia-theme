@@ -5,6 +5,48 @@ Todas as mudanças notáveis neste projeto serão documentadas neste arquivo.
 O formato é baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/),
 e este projeto adere ao [Semantic Versioning](https://semver.org/lang/pt-BR/).
 
+## [1.1.0] - 2026-02-21
+
+### 🚀 Novo Tema: DevMedia Dark Modern
+
+Introduzimos uma nova variação do tema com visual mais moderno e refinado:
+
+#### DevMedia Dark Modern
+
+- **Background principal**: `#1E2227` (mais escuro e profissional)
+- **Cor destaque**: `#82C020` (verde vibrante atualizado)
+- **Status bar**: `#4A7010`
+- **Sidebar**: `#252B33`
+- **Activity bar**: `#1A1F26`
+- **Editor foreground**: `#E8ECF2`
+
+#### Melhorias no Design
+
+- Cores de interface mais suaves e equilibradas
+- Contraste otimizado para melhor legibilidade
+- Paleta de cores consistente em todos os elementos
+- Cores de komentar (comentários) mais discretas
+- Backgrounds de widgets e popups aprimorados
+
+### 🎨 Atualização: DevMedia Dark (Original)
+
+O tema original também recebeu melhorias significativas:
+
+- **Cor destaque atualizada**: `#82C020` (antes `#6F9A35`)
+- Backgrounds ajustados para maior consistência
+- Cores de comentarios melhoradas
+- Contraste geral aprimorado
+
+### ✨ Adicionado
+
+- Novo tema **DevMedia Dark Modern**
+- Suporte expandido para linguagens de programação
+- Melhorias naindentação e guias visuais
+- Suporte aprimorado para diffs e merge
+- Symbol icons coloridos para o Explorer
+
+---
+
 ## [1.0.0] - 2026-01-29
 
 ### 🎉 Lançamento Inicial
@@ -220,5 +262,6 @@ Este projeto segue o [Semantic Versioning](https://semver.org/lang/pt-BR/):
 
 ---
 
+[1.1.0]: https://github.com/joaomjbraga/devmedia-theme/releases/tag/v1.1.0
 [1.0.0]: https://github.com/joaomjbraga/devmedia-theme/releases/tag/v1.0.0
-[Unreleased]: https://github.com/joaomjbraga/devmedia-theme/compare/v1.0.0...HEAD
+[Unreleased]: https://github.com/joaomjbraga/devmedia-theme/compare/v1.1.0...HEAD
