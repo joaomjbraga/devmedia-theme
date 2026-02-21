@@ -1,5 +1,5 @@
 {
-  "name": "DevMedia Dark",
+  "name": "DevMedia Dark modern",
   "type": "dark",
   "colors": {
     "editor.background": "#1C1C1C",
@@ -10,7 +10,7 @@
     "activityBar.border": "#262626",
     "activityBarBadge.background": "#7AAD3A",
     "activityBarBadge.foreground": "#111111",
-    "sideBar.background": "#1F2F36",
+    "sideBar.background": "#222222",
     "sideBar.foreground": "#D8DBE4",
     "sideBar.border": "#262626",
     "sideBarTitle.foreground": "#7AAD3A",
@@ -19,7 +19,7 @@
     "sideBarSectionHeader.border": "#2E2E2E",
     "list.activeSelectionBackground": "#6F9A3545",
     "list.activeSelectionForeground": "#8BBF42",
-    "list.hoverBackground": "#263C45",
+    "list.hoverBackground": "#2A2A2A",
     "list.hoverForeground": "#F0F2F7",
     "list.inactiveSelectionBackground": "#6F9A3525",
     "list.inactiveSelectionForeground": "#C8CDD8",

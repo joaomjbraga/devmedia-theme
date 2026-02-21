@@ -25,6 +25,11 @@
         "path": "./themes/devmedia-dark-color-theme.json"
       },
       {
+        "label": "DevMedia Dark Modern",
+        "uiTheme": "vs-dark",
+        "path": "./themes/devmedia-dark-color-modern-theme.json"
+      },
+      {
         "label": "DevMedia Light",
         "uiTheme": "vs",
         "path": "./themes/devmedia-light-color-theme.json"
