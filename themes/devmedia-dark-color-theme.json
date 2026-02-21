@@ -276,7 +276,7 @@
         "comment.block.documentation"
       ],
       "settings": {
-        "foreground": "#6B7280",
+        "foreground": "#5A6478",
         "fontStyle": "italic"
       }
     },
@@ -286,12 +286,20 @@
         "string",
         "string.quoted",
         "string.template",
-        "string.regexp",
         "markup.inline.raw",
         "markup.fenced_code.block.markdown"
       ],
       "settings": {
-        "foreground": "#B8863A"
+        "foreground": "#C8A96E"
+      }
+    },
+    {
+      "name": "String — RegExp",
+      "scope": [
+        "string.regexp"
+      ],
+      "settings": {
+        "foreground": "#A8C869"
       }
     },
     {
@@ -302,7 +310,7 @@
         "meta.embedded.expression.vue"
       ],
       "settings": {
-        "foreground": "#D4D8E0"
+        "foreground": "#D8DBE4"
       }
     },
     {
@@ -321,7 +329,7 @@
         "constant.language.numeric"
       ],
       "settings": {
-        "foreground": "#D7840A"
+        "foreground": "#D4913A"
       }
     },
     {
@@ -335,7 +343,7 @@
         "support.type.builtin"
       ],
       "settings": {
-        "foreground": "#8BBF42"
+        "foreground": "#A8C869"
       }
     },
     {
@@ -345,7 +353,7 @@
         "variable.other.enummember"
       ],
       "settings": {
-        "foreground": "#8BBF42"
+        "foreground": "#A8C869"
       }
     },
     {
@@ -364,7 +372,6 @@
         "storage.type.php",
         "keyword.control.cs",
         "keyword.other.cs",
-        "keyword.other.DML.sql",
         "storage.modifier.static.java"
       ],
       "settings": {
@@ -372,7 +379,7 @@
       }
     },
     {
-      "name": "Keywords — Italic",
+      "name": "Keywords — Italic Modifier",
       "scope": [
         "storage.modifier.static.java"
       ],
@@ -392,7 +399,7 @@
         "keyword.control.throw"
       ],
       "settings": {
-        "foreground": "#EF5555"
+        "foreground": "#E06040"
       }
     },
     {
@@ -466,7 +473,7 @@
         "storage.modifier.import.java support.class.java"
       ],
       "settings": {
-        "foreground": "#7AAFE0"
+        "foreground": "#4D9FBF"
       }
     },
     {
@@ -504,13 +511,11 @@
         "support.function",
         "entity.name.function.cs",
         "support.function.magic.python",
-        "meta.function-call.react-hooks",
         "entity.name.function.php",
         "support.function.php",
         "meta.function-call.php entity.name.function",
         "entity.name.function.method.php",
-        "support.function.magic.php",
-        "support.function.sql"
+        "support.function.magic.php"
       ],
       "settings": {
         "foreground": "#13ECFF"
@@ -533,7 +538,7 @@
         "meta.parameters variable"
       ],
       "settings": {
-        "foreground": "#D7840A",
+        "foreground": "#D4913A",
         "fontStyle": "italic"
       }
     },
@@ -561,7 +566,7 @@
         "entity.name.tag.jsx"
       ],
       "settings": {
-        "foreground": "#7AAFE0"
+        "foreground": "#A8C8F0"
       }
     },
     {
@@ -574,7 +579,7 @@
         "support.type.primitive.tsx"
       ],
       "settings": {
-        "foreground": "#7AAFE0",
+        "foreground": "#A8C8F0",
         "fontStyle": "italic"
       }
     },
@@ -588,6 +593,16 @@
       }
     },
     {
+      "name": "Type Parameters / Generics",
+      "scope": [
+        "entity.name.type.parameter"
+      ],
+      "settings": {
+        "foreground": "#7AAFE0",
+        "fontStyle": "italic"
+      }
+    },
+    {
       "name": "Variables",
       "scope": [
         "variable",
@@ -596,7 +611,7 @@
         "meta.definition.variable"
       ],
       "settings": {
-        "foreground": "#F6F7FA"
+        "foreground": "#E2E4EA"
       }
     },
     {
@@ -611,8 +626,6 @@
         "constant.other.php",
         "support.constant.core.php",
         "variable.other.constant.php",
-        "constant.other.database-name.sql",
-        "meta.column-name.sql",
         "variable.other.object.dart",
         "variable.other.property.dart"
       ],
@@ -621,7 +634,7 @@
       }
     },
     {
-      "name": "This / Super",
+      "name": "This / Super / Self",
       "scope": [
         "variable.language.this",
         "variable.language.super",
@@ -629,7 +642,7 @@
         "variable.language.special.cls.python"
       ],
       "settings": {
-        "foreground": "#D7840A",
+        "foreground": "#D4913A",
         "fontStyle": "italic"
       }
     },
@@ -637,7 +650,6 @@
       "name": "HTML / XML Tags",
       "scope": [
         "entity.name.tag",
-        "meta.tag",
         "entity.other.attribute-name.angular",
         "entity.other.attribute-name.directive.vue"
       ],
@@ -669,7 +681,7 @@
       }
     },
     {
-      "name": "CSS Values",
+      "name": "CSS Values & Functions",
       "scope": [
         "support.constant.property-value.css",
         "support.function.misc.css",
@@ -703,9 +715,7 @@
         "storage.type.annotation.dart",
         "storage.modifier.java",
         "storage.modifier.access.java",
-        "storage.modifier.cs",
-        "entity.name.type.parameter",
-        "keyword.other.DML.sql"
+        "storage.modifier.cs"
       ],
       "settings": {
         "foreground": "#5A9FCC",
@@ -713,13 +723,165 @@
       }
     },
     {
-      "name": "SQL Table Names",
+      "name": "SQL — DML Keywords",
+      "scope": [
+        "keyword.other.DML.sql"
+      ],
+      "settings": {
+        "foreground": "#6F9A35"
+      }
+    },
+    {
+      "name": "SQL — DDL Keywords",
+      "scope": [
+        "keyword.other.DDL.sql",
+        "keyword.other.create.sql",
+        "keyword.other.drop.sql",
+        "keyword.other.grant.sql"
+      ],
+      "settings": {
+        "foreground": "#E06040"
+      }
+    },
+    {
+      "name": "SQL — Clauses",
+      "scope": [
+        "keyword.other.sql",
+        "keyword.other.alias.sql",
+        "keyword.other.order.sql",
+        "keyword.other.group.sql",
+        "keyword.other.having.sql",
+        "keyword.other.where.sql",
+        "keyword.other.join.sql",
+        "keyword.other.union.sql",
+        "keyword.other.limit.sql"
+      ],
+      "settings": {
+        "foreground": "#5A9FCC"
+      }
+    },
+    {
+      "name": "SQL — Operators",
+      "scope": [
+        "keyword.operator.comparison.sql",
+        "keyword.operator.logical.sql",
+        "keyword.operator.like.sql",
+        "keyword.operator.null.sql",
+        "keyword.operator.math.sql"
+      ],
+      "settings": {
+        "foreground": "#8BBF42"
+      }
+    },
+    {
+      "name": "SQL — Data Types",
+      "scope": [
+        "storage.type.sql",
+        "support.type.sql"
+      ],
+      "settings": {
+        "foreground": "#A8C8F0"
+      }
+    },
+    {
+      "name": "SQL — Functions",
+      "scope": [
+        "support.function.sql",
+        "support.function.aggregate.sql",
+        "support.function.string.sql",
+        "support.function.date.sql",
+        "support.function.cast.sql"
+      ],
+      "settings": {
+        "foreground": "#13ECFF"
+      }
+    },
+    {
+      "name": "SQL — Window Functions",
+      "scope": [
+        "support.function.window.sql"
+      ],
+      "settings": {
+        "foreground": "#5FF5FF"
+      }
+    },
+    {
+      "name": "SQL — Stored Procedures & Functions",
       "scope": [
         "entity.name.function.sql",
+        "entity.name.type.sql"
+      ],
+      "settings": {
+        "foreground": "#5FF5FF"
+      }
+    },
+    {
+      "name": "SQL — Table Names",
+      "scope": [
         "constant.other.table-name.sql"
       ],
       "settings": {
+        "foreground": "#A8C8F0"
+      }
+    },
+    {
+      "name": "SQL — Schema / Database",
+      "scope": [
+        "constant.other.database-name.sql"
+      ],
+      "settings": {
+        "foreground": "#4D9FBF"
+      }
+    },
+    {
+      "name": "SQL — Columns",
+      "scope": [
+        "meta.column-name.sql",
+        "variable.other.sql"
+      ],
+      "settings": {
         "foreground": "#7AAFE0"
+      }
+    },
+    {
+      "name": "SQL — Variables & Parameters",
+      "scope": [
+        "variable.other.sql"
+      ],
+      "settings": {
+        "foreground": "#D4913A",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "SQL — Strings",
+      "scope": [
+        "string.quoted.single.sql",
+        "string.quoted.double.sql"
+      ],
+      "settings": {
+        "foreground": "#C8A96E"
+      }
+    },
+    {
+      "name": "SQL — Constants",
+      "scope": [
+        "constant.language.sql",
+        "constant.numeric.sql"
+      ],
+      "settings": {
+        "foreground": "#A8C869"
+      }
+    },
+    {
+      "name": "SQL — Comments",
+      "scope": [
+        "comment.line.double-dash.sql",
+        "comment.block.sql"
+      ],
+      "settings": {
+        "foreground": "#5A6478",
+        "fontStyle": "italic"
       }
     },
     {
@@ -733,12 +895,12 @@
       }
     },
     {
-      "name": "Markdown Emphasis",
+      "name": "Markdown Bold",
       "scope": [
         "markup.bold"
       ],
       "settings": {
-        "foreground": "#8BBF42"
+        "foreground": "#A8C8F0"
       }
     },
     {
@@ -766,18 +928,18 @@
         "markup.quote"
       ],
       "settings": {
-        "foreground": "#6B7280",
+        "foreground": "#5A6478",
         "fontStyle": "italic"
       }
     },
     {
-      "name": "Escape & RegExp Special",
+      "name": "Escape Characters",
       "scope": [
         "constant.character.escape",
         "constant.character.escape.regexp"
       ],
       "settings": {
-        "foreground": "#8BBF42"
+        "foreground": "#A8C869"
       }
     },
     {
@@ -786,7 +948,7 @@
         "punctuation"
       ],
       "settings": {
-        "foreground": "#C8CFD8"
+        "foreground": "#4A5568"
       }
     },
     {
@@ -796,7 +958,7 @@
         "punctuation.terminator"
       ],
       "settings": {
-        "foreground": "#8BBF42"
+        "foreground": "#6A7D6A"
       }
     },
     {
@@ -816,7 +978,7 @@
         "invalid.deprecated"
       ],
       "settings": {
-        "foreground": "#D7840A",
+        "foreground": "#E06040",
         "fontStyle": "italic strikethrough"
       }
     }
