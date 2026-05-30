@@ -2,7 +2,7 @@
   "name": "devmedia-theme",
   "displayName": "DevMedia Theme",
   "description": "Tema inspirado na DevMedia - Plataforma para Programadores",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "publisher": "joaomjbraga",
   "engines": {
     "vscode": "^1.60.0"
@@ -17,6 +17,9 @@
     "programming",
     "brasil"
   ],
+  "sponsor": {
+    "url": "https://github.com/sponsors/joaomjbraga"
+  },
   "contributes": {
     "themes": [
       {

@@ -5,6 +5,14 @@ Todas as mudanças notáveis neste projeto serão documentadas neste arquivo.
 O formato é baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/),
 e este projeto adere ao [Semantic Versioning](https://semver.org/lang/pt-BR/).
 
+## [1.1.2] - 2026-05-30
+
+### ✨ Adicionado
+
+- Campo `sponsor` no `package.json` com link para GitHub Sponsors ([@joaomjbraga](https://github.com/sponsors/joaomjbraga))
+
+---
+
 ## [1.1.1] - 2026-05-30
 
 ### 🎨 Melhorias: DevMedia Light
@@ -281,4 +289,5 @@ Este projeto segue o [Semantic Versioning](https://semver.org/lang/pt-BR/):
 [1.1.0]: https://github.com/joaomjbraga/devmedia-theme/releases/tag/v1.1.0
 [1.0.0]: https://github.com/joaomjbraga/devmedia-theme/releases/tag/v1.0.0
 [1.1.1]: https://github.com/joaomjbraga/devmedia-theme/releases/tag/v1.1.1
-[Unreleased]: https://github.com/joaomjbraga/devmedia-theme/compare/v1.1.1...HEAD
+[1.1.2]: https://github.com/joaomjbraga/devmedia-theme/releases/tag/v1.1.2
+[Unreleased]: https://github.com/joaomjbraga/devmedia-theme/compare/v1.1.2...HEAD
