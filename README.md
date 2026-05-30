@@ -2,7 +2,7 @@
 
 ![DevMedia](screenshots/Devmedia.jpeg)
 
-Tema não oficial para VS Code inspirado nas cores da [DevMedia](https://www.devmedia.com.br/) - Plataforma para Programadores.
+Tema não oficial para VS Code inspirado nas cores da [DevMedia](https://www.devmedia.com.br/) Plataforma para Programadores.
 
 ![DevMedia Theme](https://img.shields.io/badge/theme-DevMedia-6F9A35?style=for-the-badge)
 ![Version](https://img.shields.io/badge/version-1.1.2-blue?style=for-the-badge)
