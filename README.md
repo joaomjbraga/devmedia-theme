@@ -5,7 +5,7 @@
 Tema não oficial para VS Code inspirado nas cores da [DevMedia](https://www.devmedia.com.br/) - Plataforma para Programadores.
 
 ![DevMedia Theme](https://img.shields.io/badge/theme-DevMedia-6F9A35?style=for-the-badge)
-![Version](https://img.shields.io/badge/version-1.1.0-blue?style=for-the-badge)
+![Version](https://img.shields.io/badge/version-1.1.1-blue?style=for-the-badge)
 ![License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)
 
 ![catalago](screenshots/catalago.png)

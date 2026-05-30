@@ -5,6 +5,22 @@ Todas as mudanças notáveis neste projeto serão documentadas neste arquivo.
 O formato é baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/),
 e este projeto adere ao [Semantic Versioning](https://semver.org/lang/pt-BR/).
 
+## [1.1.1] - 2026-05-30
+
+### 🎨 Melhorias: DevMedia Light
+
+- **Title Bar**: Cor de fundo alterada para o verde institucional (`#6F9A35`) com texto claro (`#FAFBFC`)
+- **Token scopes**: Simplificação da formatação dos arrays de escopo para formato compacto
+- Atualização do `editorIndentGuide` para compatibilidade com a nova API do VS Code
+- Aplicadas novas cores no layout e editor
+
+### 🧹 Limpeza
+
+- Removidos arquivos de exemplo da pasta `examples/`
+- Adicionada entrada no `.gitignore` para ignorar a pasta `examples/`
+
+---
+
 ## [1.1.0] - 2026-02-21
 
 ### 🚀 Novo Tema: DevMedia Dark Modern
@@ -264,4 +280,5 @@ Este projeto segue o [Semantic Versioning](https://semver.org/lang/pt-BR/):
 
 [1.1.0]: https://github.com/joaomjbraga/devmedia-theme/releases/tag/v1.1.0
 [1.0.0]: https://github.com/joaomjbraga/devmedia-theme/releases/tag/v1.0.0
-[Unreleased]: https://github.com/joaomjbraga/devmedia-theme/compare/v1.1.0...HEAD
+[1.1.1]: https://github.com/joaomjbraga/devmedia-theme/releases/tag/v1.1.1
+[Unreleased]: https://github.com/joaomjbraga/devmedia-theme/compare/v1.1.1...HEAD
