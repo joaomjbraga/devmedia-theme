@@ -5,6 +5,17 @@ Todas as mudanças notáveis neste projeto serão documentadas neste arquivo.
 O formato é baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/),
 e este projeto adere ao [Semantic Versioning](https://semver.org/lang/pt-BR/).
 
+## [1.1.3] - 2026-06-15
+
+### 🎨 Alterado
+
+- Ajustes de cores nos temas dark (backgrounds mais escuros, contrastes refinados)
+- Seção JSON adicionada com cores específicas para keys, strings, números e booleanos
+- Removido `fontStyle` de várias regras de token (itálico removido exceto em comentários)
+- Nomes de regras de token simplificados
+
+---
+
 ## [1.1.2] - 2026-05-30
 
 ### ✨ Adicionado
@@ -290,4 +301,5 @@ Este projeto segue o [Semantic Versioning](https://semver.org/lang/pt-BR/):
 [1.0.0]: https://github.com/joaomjbraga/devmedia-theme/releases/tag/v1.0.0
 [1.1.1]: https://github.com/joaomjbraga/devmedia-theme/releases/tag/v1.1.1
 [1.1.2]: https://github.com/joaomjbraga/devmedia-theme/releases/tag/v1.1.2
-[Unreleased]: https://github.com/joaomjbraga/devmedia-theme/compare/v1.1.2...HEAD
+[1.1.3]: https://github.com/joaomjbraga/devmedia-theme/releases/tag/v1.1.3
+[Unreleased]: https://github.com/joaomjbraga/devmedia-theme/compare/v1.1.3...HEAD
