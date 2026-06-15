@@ -491,7 +491,7 @@
       ],
       "settings": {
         "foreground": "#82C020",
-        "fontStyle": "italic"
+        "fontStyle": ""
       }
     },
     {
@@ -641,7 +641,7 @@
       ],
       "settings": {
         "foreground": "#6C8EBF",
-        "fontStyle": "italic"
+        "fontStyle": ""
       }
     },
     {
@@ -887,7 +887,7 @@
       ],
       "settings": {
         "foreground": "#1AB8CC",
-        "fontStyle": "italic"
+        "fontStyle": ""
       }
     },
     {
@@ -914,7 +914,7 @@
       ],
       "settings": {
         "foreground": "#CEAC68",
-        "fontStyle": "italic"
+        "fontStyle": ""
       }
     },
     {
@@ -944,7 +944,7 @@
       ],
       "settings": {
         "foreground": "#9B8FE0",
-        "fontStyle": "italic"
+        "fontStyle": ""
       }
     },
     {
@@ -1007,7 +1007,7 @@
       ],
       "settings": {
         "foreground": "#A0C8F8",
-        "fontStyle": "italic"
+        "fontStyle": ""
       }
     },
     {
@@ -1023,7 +1023,7 @@
       ],
       "settings": {
         "foreground": "#7AAFE0",
-        "fontStyle": "italic"
+        "fontStyle": ""
       }
     },
     {
@@ -1094,7 +1094,7 @@
       ],
       "settings": {
         "foreground": "#AAB2C4",
-        "fontStyle": "italic"
+        "fontStyle": ""
       }
     },
     {
@@ -1143,7 +1143,7 @@
       ],
       "settings": {
         "foreground": "#B8C0D0",
-        "fontStyle": "italic"
+        "fontStyle": ""
       }
     },
     {
@@ -1154,7 +1154,7 @@
       ],
       "settings": {
         "foreground": "#D4D060",
-        "fontStyle": "italic"
+        "fontStyle": ""
       }
     },
     {
@@ -1200,7 +1200,7 @@
       ],
       "settings": {
         "foreground": "#A0C8F8",
-        "fontStyle": "italic"
+        "fontStyle": ""
       }
     },
     {
@@ -1234,7 +1234,7 @@
       ],
       "settings": {
         "foreground": "#D8B870",
-        "fontStyle": "italic"
+        "fontStyle": ""
       }
     },
     {
@@ -1540,7 +1540,7 @@
       ],
       "settings": {
         "foreground": "#CEAC68",
-        "fontStyle": "italic"
+        "fontStyle": ""
       }
     },
     {
@@ -1621,7 +1621,7 @@
       ],
       "settings": {
         "foreground": "#7AAFE0",
-        "fontStyle": "italic"
+        "fontStyle": ""
       }
     },
     {
@@ -1641,7 +1641,7 @@
       ],
       "settings": {
         "foreground": "#546575",
-        "fontStyle": "italic"
+        "fontStyle": ""
       }
     },
     {
@@ -1682,7 +1682,7 @@
       ],
       "settings": {
         "foreground": "#F47070",
-        "fontStyle": "italic"
+        "fontStyle": ""
       }
     },
     {
@@ -1692,7 +1692,7 @@
       ],
       "settings": {
         "foreground": "#D86848",
-        "fontStyle": "italic strikethrough"
+        "fontStyle": "strikethrough"
       }
     }
   ]

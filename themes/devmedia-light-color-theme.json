@@ -374,7 +374,7 @@
       "scope": ["variable.parameter", "meta.parameters variable"],
       "settings": {
         "foreground": "#0369A1",
-        "fontStyle": "italic"
+        "fontStyle": ""
       }
     },
     {
@@ -417,7 +417,7 @@
       "scope": ["variable.language.this", "variable.language.super"],
       "settings": {
         "foreground": "#9333EA",
-        "fontStyle": "italic"
+        "fontStyle": ""
       }
     },
     {
@@ -512,7 +512,7 @@
       "scope": ["entity.name.type.interface"],
       "settings": {
         "foreground": "#D7840A",
-        "fontStyle": "italic"
+        "fontStyle": ""
       }
     },
     {
@@ -520,7 +520,7 @@
       "scope": ["entity.name.type.parameter"],
       "settings": {
         "foreground": "#9333EA",
-        "fontStyle": "italic"
+        "fontStyle": ""
       }
     },
     {
@@ -538,7 +538,7 @@
       "scope": ["variable.language.special.self.python"],
       "settings": {
         "foreground": "#9333EA",
-        "fontStyle": "italic"
+        "fontStyle": ""
       }
     },
     {
@@ -546,7 +546,7 @@
       "scope": ["support.function.magic.python"],
       "settings": {
         "foreground": "#9333EA",
-        "fontStyle": "italic"
+        "fontStyle": ""
       }
     },
     {
@@ -584,7 +584,7 @@
       "scope": ["storage.modifier.static.java"],
       "settings": {
         "foreground": "#9333EA",
-        "fontStyle": "italic"
+        "fontStyle": ""
       }
     },
     {
@@ -616,7 +616,7 @@
       "scope": ["markup.italic"],
       "settings": {
         "foreground": "#0891B2",
-        "fontStyle": "italic"
+        "fontStyle": ""
       }
     },
     {
@@ -639,7 +639,7 @@
       "scope": ["markup.quote"],
       "settings": {
         "foreground": "#6B7280",
-        "fontStyle": "italic"
+        "fontStyle": ""
       }
     },
     {
@@ -647,7 +647,7 @@
       "scope": ["invalid", "invalid.illegal"],
       "settings": {
         "foreground": "#DC2626",
-        "fontStyle": "italic"
+        "fontStyle": ""
       }
     },
     {
@@ -655,7 +655,7 @@
       "scope": ["invalid.deprecated"],
       "settings": {
         "foreground": "#D7840A",
-        "fontStyle": "italic strikethrough"
+        "fontStyle": "strikethrough"
       }
     },
     {
