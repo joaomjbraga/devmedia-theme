@@ -892,9 +892,7 @@
     },
     {
       "name": "Funções — SQL Window (ROW_NUMBER · RANK · OVER · PARTITION BY)",
-      "scope": [
-        "support.function.window.sql"
-      ],
+      "scope": ["support.function.window.sql"],
       "settings": {
         "foreground": "#40DDEF"
       }
@@ -1194,10 +1192,7 @@
     },
     {
       "name": "PHP — Operadores de cast ((int) · (string) · (array) · (bool))",
-      "scope": [
-        "keyword.operator.cast.php",
-        "storage.type.cast.php"
-      ],
+      "scope": ["keyword.operator.cast.php", "storage.type.cast.php"],
       "settings": {
         "foreground": "#A0C8F8",
         "fontStyle": ""
@@ -1335,9 +1330,7 @@
     },
     {
       "name": "Angular — Pipe operator (|)",
-      "scope": [
-        "keyword.operator.pipe.angular"
-      ],
+      "scope": ["keyword.operator.pipe.angular"],
       "settings": {
         "foreground": "#9CD633"
       }
@@ -1430,14 +1423,12 @@
         "string.json support.type.property-name"
       ],
       "settings": {
-        "foreground": "#82C020"
+        "foreground": "#5EC8A8"
       }
     },
     {
       "name": "SQL — DML (SELECT · INSERT · UPDATE · DELETE · MERGE)",
-      "scope": [
-        "keyword.other.DML.sql"
-      ],
+      "scope": ["keyword.other.DML.sql"],
       "settings": {
         "foreground": "#82C020"
       }
@@ -1487,57 +1478,42 @@
     },
     {
       "name": "SQL — Transações (BEGIN · COMMIT · ROLLBACK · SAVEPOINT)",
-      "scope": [
-        "keyword.other.transaction.sql",
-        "keyword.other.procedure.sql"
-      ],
+      "scope": ["keyword.other.transaction.sql", "keyword.other.procedure.sql"],
       "settings": {
         "foreground": "#9B8FE0"
       }
     },
     {
       "name": "SQL — Tipos de dados (INT · VARCHAR · DATE · BOOLEAN · DECIMAL)",
-      "scope": [
-        "storage.type.sql",
-        "support.type.sql"
-      ],
+      "scope": ["storage.type.sql", "support.type.sql"],
       "settings": {
         "foreground": "#A0C8F8"
       }
     },
     {
       "name": "SQL — Tabelas e views",
-      "scope": [
-        "constant.other.table-name.sql",
-        "entity.name.type.sql"
-      ],
+      "scope": ["constant.other.table-name.sql", "entity.name.type.sql"],
       "settings": {
         "foreground": "#A0C8F8"
       }
     },
     {
       "name": "SQL — Schema · Database · Catalog",
-      "scope": [
-        "constant.other.database-name.sql"
-      ],
+      "scope": ["constant.other.database-name.sql"],
       "settings": {
         "foreground": "#4D9FBF"
       }
     },
     {
       "name": "SQL — Colunas",
-      "scope": [
-        "meta.column-name.sql"
-      ],
+      "scope": ["meta.column-name.sql"],
       "settings": {
         "foreground": "#7AAFE0"
       }
     },
     {
       "name": "SQL — Parâmetros e variáveis (@var · :param · $1)",
-      "scope": [
-        "variable.other.sql"
-      ],
+      "scope": ["variable.other.sql"],
       "settings": {
         "foreground": "#D4D060",
         "fontStyle": ""
@@ -1558,37 +1534,28 @@
     },
     {
       "name": "SQL — Window functions (ROW_NUMBER · RANK · OVER · PARTITION BY)",
-      "scope": [
-        "support.function.window.sql"
-      ],
+      "scope": ["support.function.window.sql"],
       "settings": {
         "foreground": "#40DDEF"
       }
     },
     {
       "name": "SQL — Stored procedures e functions (declaração)",
-      "scope": [
-        "entity.name.function.sql"
-      ],
+      "scope": ["entity.name.function.sql"],
       "settings": {
         "foreground": "#40DDEF"
       }
     },
     {
       "name": "SQL — Constraints (PRIMARY KEY · FOREIGN KEY · INDEX · UNIQUE)",
-      "scope": [
-        "keyword.other.data-integrity.sql"
-      ],
+      "scope": ["keyword.other.data-integrity.sql"],
       "settings": {
         "foreground": "#9B8FE0"
       }
     },
     {
       "name": "SQL — Constantes (NULL · TRUE · FALSE)",
-      "scope": [
-        "constant.language.sql",
-        "constant.numeric.sql"
-      ],
+      "scope": ["constant.language.sql", "constant.numeric.sql"],
       "settings": {
         "foreground": "#A8D44A"
       }
@@ -1606,9 +1573,7 @@
     },
     {
       "name": "Markdown — Bold (**texto**)",
-      "scope": [
-        "markup.bold"
-      ],
+      "scope": ["markup.bold"],
       "settings": {
         "foreground": "#A0C8F8",
         "fontStyle": "bold"
@@ -1616,9 +1581,7 @@
     },
     {
       "name": "Markdown — Italic (*texto*)",
-      "scope": [
-        "markup.italic"
-      ],
+      "scope": ["markup.italic"],
       "settings": {
         "foreground": "#7AAFE0",
         "fontStyle": ""
@@ -1626,19 +1589,14 @@
     },
     {
       "name": "Markdown — Links ([label](url))",
-      "scope": [
-        "markup.underline.link",
-        "string.other.link.title.markdown"
-      ],
+      "scope": ["markup.underline.link", "string.other.link.title.markdown"],
       "settings": {
         "foreground": "#5A9FCC"
       }
     },
     {
       "name": "Markdown — Blockquote",
-      "scope": [
-        "markup.quote"
-      ],
+      "scope": ["markup.quote"],
       "settings": {
         "foreground": "#546575",
         "fontStyle": ""
@@ -1646,21 +1604,16 @@
     },
     {
       "name": "Markdown — Listas (- · * · 1.)",
-      "scope": [
-        "markup.list",
-        "punctuation.definition.list.begin.markdown"
-      ],
+      "scope": ["markup.list", "punctuation.definition.list.begin.markdown"],
       "settings": {
         "foreground": "#9CD633"
       }
     },
     {
       "name": "Pontuação — Geral ({ } ( ) [ ])",
-      "scope": [
-        "punctuation"
-      ],
+      "scope": ["punctuation"],
       "settings": {
-        "foreground": "#384A58"
+        "foreground": "#4E6878"
       }
     },
     {
@@ -1671,15 +1624,12 @@
         "punctuation.accessor"
       ],
       "settings": {
-        "foreground": "#455868"
+        "foreground": "#4E6878"
       }
     },
     {
       "name": "Inválido — Erro de sintaxe",
-      "scope": [
-        "invalid",
-        "invalid.illegal"
-      ],
+      "scope": ["invalid", "invalid.illegal"],
       "settings": {
         "foreground": "#F47070",
         "fontStyle": ""
@@ -1687,9 +1637,7 @@
     },
     {
       "name": "Deprecated — API descontinuada",
-      "scope": [
-        "invalid.deprecated"
-      ],
+      "scope": ["invalid.deprecated"],
       "settings": {
         "foreground": "#D86848",
         "fontStyle": "strikethrough"
