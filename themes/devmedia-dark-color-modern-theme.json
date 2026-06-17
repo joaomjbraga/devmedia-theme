@@ -265,7 +265,23 @@
     "pickerGroup.border": "#1C2028",
     "quickInput.background": "#181C22",
     "settings.headerForeground": "#E8ECF2",
-    "settings.modifiedItemIndicator": "#D08830"
+    "settings.modifiedItemIndicator": "#D08830",
+    "editorBracketHighlight.foreground1": "#82C020",
+    "editorBracketHighlight.foreground2": "#18B8C8",
+    "editorBracketHighlight.foreground3": "#A098E8",
+    "editorBracketHighlight.foreground4": "#D89038",
+    "editorBracketHighlight.foreground5": "#6E9FD0",
+    "editorBracketHighlight.foreground6": "#D86848",
+    "editorBracketHighlight.unexpectedBracket.foreground": "#F07070",
+    "editorInlayHint.background": "#00000000",
+    "editorInlayHint.foreground": "#5A7080",
+    "editorInlayHint.typeBackground": "#00000000",
+    "editorInlayHint.typeForeground": "#6E9FD0",
+    "editorInlayHint.parameterBackground": "#00000000",
+    "editorInlayHint.parameterForeground": "#D8B060",
+    "editorGhostText.foreground": "#5A7080",
+    "editorGhostText.background": "#00000000",
+    "editorGhostText.border": "#00000000"
   },
   "tokenColors": [
     {
@@ -815,6 +831,20 @@
       }
     },
     {
+      "name": "Optional chaining / accessor opcional (?.)",
+      "scope": [
+        "punctuation.accessor.optional",
+        "punctuation.accessor.optional.ts",
+        "punctuation.accessor.optional.js",
+        "keyword.operator.optional.js",
+        "keyword.operator.optional.ts"
+      ],
+      "settings": {
+        "foreground": "#9CD633",
+        "fontStyle": ""
+      }
+    },
+    {
       "name": "Operadores — C# null-safety (?. ?? ??=)",
       "scope": [
         "keyword.operator.null-conditional.cs",
@@ -901,6 +931,20 @@
       }
     },
     {
+      "name": "Globals & built-ins (console · Object · Array · Promise · Map · Set)",
+      "scope": [
+        "support.type.object.console",
+        "support.class.builtin.js",
+        "support.class.builtin.ts",
+        "support.class.console.js",
+        "support.type.object.module.commonjs"
+      ],
+      "settings": {
+        "foreground": "#4ECDB4",
+        "fontStyle": ""
+      }
+    },
+    {
       "name": "Funções — React Hooks",
       "scope": [
         "meta.function-call.react-hooks",
@@ -969,7 +1013,7 @@
       ],
       "settings": {
         "foreground": "#A098E8",
-        "fontStyle": ""
+        "fontStyle": "italic"
       }
     },
     {
@@ -1049,7 +1093,7 @@
       ],
       "settings": {
         "foreground": "#6E9FD0",
-        "fontStyle": ""
+        "fontStyle": "italic"
       }
     },
     {
@@ -1757,5 +1801,16 @@
         "fontStyle": "strikethrough"
       }
     }
-  ]
+  ],
+  "semanticHighlighting": true,
+  "semanticTokenColors": {
+    "parameter": "#D8B060",
+    "property": "#7AAFE0",
+    "property.readonly": "#4ECDB4",
+    "variable.readonly": "#A0CC40",
+    "typeParameter": "#6E9FD0",
+    "decorator": "#A098E8",
+    "method.static": "#3CD8E8",
+    "*.defaultLibrary": "#4ECDB4"
+  }
 }
