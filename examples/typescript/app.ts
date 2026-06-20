@@ -37,7 +37,7 @@ export interface PaginatedResult<T> {
 function logMethod(
   target: unknown,
   propertyKey: string,
-  descriptor: PropertyDescriptor
+  descriptor: PropertyDescriptor,
 ): PropertyDescriptor {
   const original = descriptor.value;
   descriptor.value = function (...args: unknown[]) {
@@ -119,10 +119,7 @@ class TaskService {
   }
 
   @logMethod
-  async updateStatus(
-    id: string,
-    status: TaskStatus
-  ): Promise<Task | null> {
+  async updateStatus(id: string, status: TaskStatus): Promise<Task | null> {
     const task = this.repository.findById(id);
     if (!task) return null;
 
@@ -159,10 +156,7 @@ function sendJson(res: ServerResponse, data: unknown, status = 200) {
 class TaskController {
   constructor(private readonly service: TaskService) {}
 
-  async handle(
-    req: IncomingMessage,
-    res: ServerResponse
-  ): Promise<void> {
+  async handle(req: IncomingMessage, res: ServerResponse): Promise<void> {
     const url = new URL(req.url ?? "/", `http://${req.headers.host}`);
     const pathParts = url.pathname.split("/").filter(Boolean);
 
@@ -208,4 +202,4 @@ server.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
 });
 
-export { service, repository };
+export { repository, service };
