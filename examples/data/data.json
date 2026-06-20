@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "generatedAt": "2026-06-19T12:00:00Z",
+    "source": "DevMedia Theme Examples",
+    "totalItems": 3
+  },
+  "users": [
+    {
+      "id": "usr_9a3f8b2c",
+      "name": "João Braga",
+      "email": "joao@devmedia.com",
+      "role": "admin",
+      "active": true,
+      "profile": {
+        "avatar": "https://example.com/avatars/joao.png",
+        "bio": "Full-stack developer and theme creator",
+        "social": {
+          "github": "@joaomjbraga",
+          "twitter": null,
+          "linkedin": "joaomjbraga"
+        }
+      },
+      "preferences": {
+        "theme": "dark",
+        "language": "pt-BR",
+        "notifications": {
+          "email": true,
+          "push": false,
+          "weeklyDigest": true
+        }
+      },
+      "createdAt": "2024-01-15T08:30:00Z",
+      "lastLogin": "2026-06-19T11:45:00Z"
+    },
+    {
+      "id": "usr_7d2e1f4a",
+      "name": "Maria Silva",
+      "email": "maria@example.com",
+      "role": "editor",
+      "active": true,
+      "profile": {
+        "avatar": null,
+        "bio": "Content manager and tech writer"
+      },
+      "preferences": {
+        "theme": "light",
+        "language": "en-US",
+        "notifications": {
+          "email": true,
+          "push": true,
+          "weeklyDigest": false
+        }
+      },
+      "createdAt": "2024-03-22T14:15:00Z",
+      "lastLogin": "2026-06-18T09:30:00Z"
+    },
+    {
+      "id": "usr_5b8c3d9e",
+      "name": "Carlos Pereira",
+      "email": "carlos@example.com",
+      "role": "viewer",
+      "active": false,
+      "profile": {
+        "bio": null
+      },
+      "preferences": {
+        "theme": "dark",
+        "language": "pt-BR",
+        "notifications": {
+          "email": false,
+          "push": false,
+          "weeklyDigest": false
+        }
+      },
+      "createdAt": "2025-11-01T10:00:00Z",
+      "lastLogin": "2026-01-10T16:20:00Z"
+    }
+  ],
+  "posts": [
+    {
+      "id": "post_001",
+      "title": "Introdução ao VS Code Themes",
+      "slug": "introducao-vscode-themes",
+      "excerpt": "Aprenda como criar seu próprio tema para o VS Code.",
+      "content": "Artigo completo sobre criação de temas...",
+      "author": "usr_9a3f8b2c",
+      "tags": ["vscode", "themes", "tutorial"],
+      "published": true,
+      "views": 15234,
+      "rating": 4.8,
+      "createdAt": "2026-01-10T09:00:00Z",
+      "updatedAt": "2026-06-01T14:30:00Z"
+    },
+    {
+      "id": "post_002",
+      "title": "Guia de Estilo para Código",
+      "slug": "guia-de-estilo-codigo",
+      "excerpt": "Boas práticas para escrever código limpo e legível.",
+      "content": "Neste guia abordaremos convenções de nomenclatura...",
+      "author": "usr_7d2e1f4a",
+      "tags": ["clean-code", "best-practices", "style-guide"],
+      "published": true,
+      "views": 8921,
+      "rating": 4.5,
+      "createdAt": "2026-03-05T11:00:00Z",
+      "updatedAt": "2026-05-20T16:45:00Z"
+    }
+  ],
+  "settings": {
+    "siteName": "DevMedia Blog",
+    "description": "Plataforma para programadores",
+    "language": "pt-BR",
+    "timezone": "America/Sao_Paulo",
+    "postsPerPage": 10,
+    "enableComments": true,
+    "maintenanceMode": false,
+    "featuredTags": ["vscode", "javascript", "python", "docker"],
+    "socialLinks": {
+      "github": "https://github.com/joaomjbraga/devmedia-theme",
+      "twitter": null,
+      "youtube": null
+    },
+    "analytics": {
+      "provider": "google",
+      "id": "G-XXXXXXXXXX",
+      "enabled": false
+    }
+  }
+}

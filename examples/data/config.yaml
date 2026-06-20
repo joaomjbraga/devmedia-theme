@@ -1,0 +1,153 @@
+# YAML example - Application configuration
+---
+app:
+  name: "DevMedia App"
+  version: "1.0.0"
+  environment: "${APP_ENV:-development}"
+  debug: ${APP_DEBUG:-false}
+  port: 8000
+
+server:
+  host: "0.0.0.0"
+  port: 8000
+  workers: 4
+  timeout:
+    read: 30s
+    write: 30s
+    idle: 120s
+  cors:
+    enabled: true
+    allowed_origins:
+      - "http://localhost:3000"
+      - "https://app.devmedia.com"
+    allowed_methods:
+      - GET
+      - POST
+      - PUT
+      - DELETE
+      - PATCH
+    allowed_headers:
+      - Content-Type
+      - Authorization
+      - X-Request-ID
+
+database:
+  driver: postgresql
+  host: ${DB_HOST:-localhost}
+  port: ${DB_PORT:-5432}
+  name: ${DB_NAME:-devmedia}
+  user: ${DB_USER:-devmedia}
+  password: ${DB_PASSWORD:-secret}
+  pool:
+    min: 2
+    max: 10
+    timeout: 30s
+  options:
+    ssl_mode: prefer
+    application_name: devmedia-api
+
+redis:
+  host: ${REDIS_HOST:-localhost}
+  port: ${REDIS_PORT:-6379}
+  password: ${REDIS_PASSWORD:-}
+  db: 0
+  pool:
+    max: 20
+    timeout: 5s
+
+logging:
+  level: ${LOG_LEVEL:-info}
+  format: json
+  output: stdout
+  file:
+    path: /var/log/devmedia/app.log
+    max_size: 100MB
+    max_files: 7
+    compress: true
+
+auth:
+  jwt:
+    secret: ${JWT_SECRET}
+    algorithm: HS256
+    expiry:
+      access: 15m
+      refresh: 7d
+    issuer: "devmedia-api"
+  bcrypt:
+    rounds: 12
+
+rate_limiting:
+  enabled: true
+  strategy: sliding_window
+  default:
+    requests: 100
+    window: 1m
+  endpoints:
+    /api/auth/login:
+      requests: 5
+      window: 1m
+    /api/upload:
+      requests: 10
+      window: 1m
+
+features:
+  signup:
+    enabled: true
+    require_email_verification: true
+  file_upload:
+    enabled: true
+    max_size: 10MB
+    allowed_types:
+      - image/jpeg
+      - image/png
+      - application/pdf
+    storage: local
+    path: /app/uploads
+  notifications:
+    email:
+      enabled: true
+      provider: sendgrid
+    push:
+      enabled: false
+
+monitoring:
+  metrics:
+    enabled: true
+    path: /metrics
+  tracing:
+    enabled: false
+    provider: jaeger
+    endpoint: http://jaeger:14268/api/traces
+  health_check:
+    interval: 30s
+    timeout: 5s
+    unhealthy_threshold: 3
+
+# Environment-specific overrides
+environments:
+  development:
+    debug: true
+    database:
+      pool:
+        min: 1
+        max: 5
+    logging:
+      level: debug
+      format: pretty
+  production:
+    debug: false
+    database:
+      pool:
+        min: 5
+        max: 20
+    logging:
+      level: warn
+    rate_limiting:
+      default:
+        requests: 50
+        window: 1m
+  test:
+    database:
+      name: devmedia_test
+    logging:
+      level: silent

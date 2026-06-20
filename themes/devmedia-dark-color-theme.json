@@ -350,7 +350,7 @@
         "punctuation.definition.template-expression.end"
       ],
       "settings": {
-        "foreground": "#9CD633"
+        "foreground": "#5EC8C8"
       }
     },
     {
@@ -361,7 +361,7 @@
         "punctuation.definition.interpolation.end.python"
       ],
       "settings": {
-        "foreground": "#9CD633"
+        "foreground": "#5EC8C8"
       }
     },
     {
@@ -372,7 +372,7 @@
         "punctuation.definition.interpolation.end.dart"
       ],
       "settings": {
-        "foreground": "#9CD633"
+        "foreground": "#5EC8C8"
       }
     },
     {
@@ -396,7 +396,7 @@
         "constant.character.escape.pascal"
       ],
       "settings": {
-        "foreground": "#A8D44A"
+        "foreground": "#E8B85C"
       }
     },
     {
@@ -436,7 +436,7 @@
         "constant.language.dart"
       ],
       "settings": {
-        "foreground": "#A8D44A"
+        "foreground": "#D8A858"
       }
     },
     {
@@ -450,7 +450,7 @@
         "variable.other.constant.pascal"
       ],
       "settings": {
-        "foreground": "#A8D44A"
+        "foreground": "#D8A858"
       }
     },
     {
@@ -759,7 +759,7 @@
         "keyword.operator.spread.php"
       ],
       "settings": {
-        "foreground": "#9CD633"
+        "foreground": "#8FB8D8"
       }
     },
     {
@@ -775,7 +775,7 @@
         "keyword.operator.class.php"
       ],
       "settings": {
-        "foreground": "#9CD633"
+        "foreground": "#8FB8D8"
       }
     },
     {
@@ -789,7 +789,7 @@
         "keyword.operator.nullable.ts"
       ],
       "settings": {
-        "foreground": "#7AAFE0"
+        "foreground": "#6FA8DC"
       }
     },
     {
@@ -800,7 +800,7 @@
         "keyword.operator.null-coalescing.cs"
       ],
       "settings": {
-        "foreground": "#9CD633"
+        "foreground": "#8FB8D8"
       }
     },
     {
@@ -810,7 +810,7 @@
         "keyword.operator.null-aware.dart"
       ],
       "settings": {
-        "foreground": "#9CD633"
+        "foreground": "#8FB8D8"
       }
     },
     {
@@ -911,7 +911,7 @@
         "meta.parameters variable.parameter"
       ],
       "settings": {
-        "foreground": "#D8B870",
+        "foreground": "#E0A458",
         "fontStyle": ""
       }
     },
@@ -980,7 +980,7 @@
         "entity.name.type.enum.php"
       ],
       "settings": {
-        "foreground": "#A0C8F8"
+        "foreground": "#7EC4E8"
       }
     },
     {
@@ -1020,7 +1020,7 @@
         "entity.name.type.type-parameter.cs"
       ],
       "settings": {
-        "foreground": "#7AAFE0",
+        "foreground": "#8FC9E8",
         "fontStyle": ""
       }
     },
@@ -1068,7 +1068,7 @@
         "meta.column-name.sql"
       ],
       "settings": {
-        "foreground": "#7AAFE0"
+        "foreground": "#93C5FD"
       }
     },
     {
@@ -1088,7 +1088,7 @@
         "variable.language.static.php"
       ],
       "settings": {
-        "foreground": "#B8C0D0",
+        "foreground": "#9BA8C4",
         "fontStyle": ""
       }
     },
@@ -1128,7 +1128,7 @@
         "punctuation.separator.key-value.html"
       ],
       "settings": {
-        "foreground": "#557A30",
+        "foreground": "#5C7080",
         "fontStyle": ""
       }
     },
@@ -1141,7 +1141,7 @@
         "support.constant.core.php"
       ],
       "settings": {
-        "foreground": "#A8D44A"
+        "foreground": "#D8A858"
       }
     },
     {
@@ -1185,7 +1185,7 @@
         "keyword.operator.null-safe.php"
       ],
       "settings": {
-        "foreground": "#9CD633"
+        "foreground": "#8FB8D8"
       }
     },
     {
@@ -1262,7 +1262,7 @@
         "entity.other.attribute-name.tsx"
       ],
       "settings": {
-        "foreground": "#7AAFE0",
+        "foreground": "#C9A8E8",
         "fontStyle": ""
       }
     },
@@ -1275,7 +1275,7 @@
         "punctuation.section.embedded.end.tsx"
       ],
       "settings": {
-        "foreground": "#9CD633",
+        "foreground": "#5EC8A8",
         "fontStyle": ""
       }
     },
@@ -1303,7 +1303,7 @@
         "punctuation.definition.interpolation.end.vue"
       ],
       "settings": {
-        "foreground": "#9CD633",
+        "foreground": "#5EC8C8",
         "fontStyle": ""
       }
     },
@@ -1330,7 +1330,7 @@
         "punctuation.definition.interpolation.end.angular"
       ],
       "settings": {
-        "foreground": "#9CD633",
+        "foreground": "#5EC8C8",
         "fontStyle": ""
       }
     },
@@ -1338,7 +1338,7 @@
       "name": "Angular — Pipe operator (|)",
       "scope": ["keyword.operator.pipe.angular"],
       "settings": {
-        "foreground": "#9CD633",
+        "foreground": "#8FB8D8",
         "fontStyle": ""
       }
     },
@@ -1486,7 +1486,7 @@
         "keyword.other.end.sql"
       ],
       "settings": {
-        "foreground": "#9CD633"
+        "foreground": "#8FB8D8"
       }
     },
     {
@@ -1570,7 +1570,7 @@
       "name": "SQL — Constantes (NULL · TRUE · FALSE)",
       "scope": ["constant.language.sql", "constant.numeric.sql"],
       "settings": {
-        "foreground": "#A8D44A"
+        "foreground": "#D8A858"
       }
     },
     {
@@ -1619,7 +1619,7 @@
       "name": "Markdown — Listas (- · * · 1.)",
       "scope": ["markup.list", "punctuation.definition.list.begin.markdown"],
       "settings": {
-        "foreground": "#9CD633"
+        "foreground": "#8FB8D8"
       }
     },
     {
