@@ -13,6 +13,7 @@ e este projeto adere ao [Semantic Versioning](https://semver.org/lang/pt-BR/).
 - Seção JSON adicionada com cores específicas para keys, strings, números e booleanos
 - Removido `fontStyle` de várias regras de token (itálico removido exceto em comentários)
 - Nomes de regras de token simplificados
+- **Refatoração tokenColors**: Consolidados scopes repetidos em 42 tokens (de 93), mantendo todas as cores e funcionalidades
 
 ---
 
