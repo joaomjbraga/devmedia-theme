@@ -1,261 +1,291 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Exemplo de página HTML para testar o tema DevMedia">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Exemplo de página HTML para testar o tema DevMedia"
+    />
     <title>DevMedia Theme - Exemplo HTML</title>
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/styles.css" />
     <script type="module" src="app.js" defer></script>
-</head>
-<body>
+  </head>
+  <body>
     <header class="header">
-        <nav class="nav" aria-label="Navegação principal">
-            <a href="/" class="logo" aria-label="Página inicial">
-                <img src="logo.svg" alt="DevMedia" width="32" height="32">
-                <span>DevMedia</span>
-            </a>
-            <ul class="nav-list" role="list">
-                <li><a href="#home" class="active">Início</a></li>
-                <li><a href="#about">Sobre</a></li>
-                <li><a href="#contact">Contato</a></li>
-            </ul>
-            <button class="theme-toggle" aria-label="Alternar tema" data-theme="dark">
-                <span aria-hidden="true">🌙</span>
-            </button>
-        </nav>
+      <nav class="nav" aria-label="Navegação principal">
+        <a href="/" class="logo" aria-label="Página inicial">
+          <img src="logo.svg" alt="DevMedia" width="32" height="32" />
+          <span>DevMedia</span>
+        </a>
+        <ul class="nav-list" role="list">
+          <li><a href="#home" class="active">Início</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+        <button
+          class="theme-toggle"
+          aria-label="Alternar tema"
+          data-theme="dark"
+        >
+          <span aria-hidden="true">🌙</span>
+        </button>
+      </nav>
     </header>
 
     <main>
-        <section id="home" class="hero">
-            <h1>Exemplo de <span class="highlight">Código HTML</span></h1>
-            <p class="subtitle">Este arquivo demonstra vários elementos HTML para testar o tema.</p>
-            <a href="#examples" class="btn btn-primary" data-action="scroll">
-                Ver exemplos &darr;
-            </a>
-        </section>
+      <section id="home" class="hero">
+        <h1>Exemplo de <span class="highlight">Código HTML</span></h1>
+        <p class="subtitle">
+          Este arquivo demonstra vários elementos HTML para testar o tema.
+        </p>
+        <a href="#examples" class="btn btn-primary" data-action="scroll">
+          Ver exemplos &darr;
+        </a>
+      </section>
 
-        <section id="examples" class="examples">
-            <h2>Elementos HTML</h2>
+      <section id="examples" class="examples">
+        <h2>Elementos HTML</h2>
 
-            <article class="card">
-                <h3>Formulário</h3>
-                <form id="contact-form" novalidate>
-                    <div class="form-group">
-                        <label for="name">Nome:</label>
-                        <input
-                            type="text"
-                            id="name"
-                            name="name"
-                            placeholder="Seu nome"
-                            required
-                            minlength="3"
-                        >
-                    </div>
+        <article class="card">
+          <h3>Formulário</h3>
+          <form id="contact-form" novalidate>
+            <div class="form-group">
+              <label for="name">Nome:</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Seu nome"
+                required
+                minlength="3"
+              />
+            </div>
 
-                    <div class="form-group">
-                        <label for="email">Email:</label>
-                        <input
-                            type="email"
-                            id="email"
-                            name="email"
-                            placeholder="email@exemplo.com"
-                            required
-                        >
-                    </div>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="email@exemplo.com"
+                required
+              />
+            </div>
 
-                    <div class="form-group">
-                        <label for="message">Mensagem:</label>
-                        <textarea
-                            id="message"
-                            name="message"
-                            rows="4"
-                            placeholder="Digite sua mensagem..."
-                            maxlength="500"
-                        ></textarea>
-                    </div>
+            <div class="form-group">
+              <label for="message">Mensagem:</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
+                placeholder="Digite sua mensagem..."
+                maxlength="500"
+              ></textarea>
+            </div>
 
-                    <div class="form-group">
-                        <label for="category">Categoria:</label>
-                        <select id="category" name="category">
-                            <optgroup label="Suporte">
-                                <option value="bug">Reportar Bug</option>
-                                <option value="feature">Sugerir Funcionalidade</option>
-                            </optgroup>
-                            <optgroup label="Outros">
-                                <option value="general">Geral</option>
-                            </optgroup>
-                        </select>
-                    </div>
+            <div class="form-group">
+              <label for="category">Categoria:</label>
+              <select id="category" name="category">
+                <optgroup label="Suporte">
+                  <option value="bug">Reportar Bug</option>
+                  <option value="feature">Sugerir Funcionalidade</option>
+                </optgroup>
+                <optgroup label="Outros">
+                  <option value="general">Geral</option>
+                </optgroup>
+              </select>
+            </div>
 
-                    <fieldset>
-                        <legend>Preferências</legend>
-                        <label>
-                            <input type="checkbox" name="newsletter" checked>
-                            Receber newsletter
-                        </label>
-                        <label>
-                            <input type="radio" name="priority" value="low" checked>
-                            Baixa prioridade
-                        </label>
-                        <label>
-                            <input type="radio" name="priority" value="high">
-                            Alta prioridade
-                        </label>
-                    </fieldset>
+            <fieldset>
+              <legend>Preferências</legend>
+              <label>
+                <input type="checkbox" name="newsletter" checked />
+                Receber newsletter
+              </label>
+              <label>
+                <input type="radio" name="priority" value="low" checked />
+                Baixa prioridade
+              </label>
+              <label>
+                <input type="radio" name="priority" value="high" />
+                Alta prioridade
+              </label>
+            </fieldset>
 
-                    <button type="submit" class="btn btn-primary">
-                        Enviar
-                    </button>
-                    <button type="reset" class="btn btn-secondary">
-                        Limpar
-                    </button>
-                </form>
-            </article>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+            <button type="reset" class="btn btn-secondary">Limpar</button>
+          </form>
+        </article>
 
-            <article class="card">
-                <h3>Tabela de Dados</h3>
-                <div class="table-wrapper">
-                    <table>
-                        <caption>Usuários cadastrados</caption>
-                        <thead>
-                            <tr>
-                                <th scope="col">#</th>
-                                <th scope="col">Nome</th>
-                                <th scope="col">Email</th>
-                                <th scope="col">Status</th>
-                                <th scope="col">Ações</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>1</td>
-                                <td>João Braga</td>
-                                <td>joao@devmedia.com</td>
-                                <td><span class="badge badge-success">Ativo</span></td>
-                                <td>
-                                    <a href="#" class="btn-sm">Editar</a>
-                                    <a href="#" class="btn-sm btn-danger">Excluir</a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>2</td>
-                                <td>Maria Silva</td>
-                                <td>maria@exemplo.com</td>
-                                <td><span class="badge badge-warning">Pendente</span></td>
-                                <td>
-                                    <a href="#" class="btn-sm">Editar</a>
-                                    <a href="#" class="btn-sm btn-danger">Excluir</a>
-                                </td>
-                            </tr>
-                        </tbody>
-                        <tfoot>
-                            <tr>
-                                <td colspan="5">Total: 2 usuários</td>
-                            </tr>
-                        </tfoot>
-                    </table>
-                </div>
-            </article>
+        <article class="card">
+          <h3>Tabela de Dados</h3>
+          <div class="table-wrapper">
+            <table>
+              <caption>
+                Usuários cadastrados
+              </caption>
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Nome</th>
+                  <th scope="col">Email</th>
+                  <th scope="col">Status</th>
+                  <th scope="col">Ações</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>João Braga</td>
+                  <td>joao@devmedia.com</td>
+                  <td><span class="badge badge-success">Ativo</span></td>
+                  <td>
+                    <a href="#" class="btn-sm">Editar</a>
+                    <a href="#" class="btn-sm btn-danger">Excluir</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Maria Silva</td>
+                  <td>maria@exemplo.com</td>
+                  <td><span class="badge badge-warning">Pendente</span></td>
+                  <td>
+                    <a href="#" class="btn-sm">Editar</a>
+                    <a href="#" class="btn-sm btn-danger">Excluir</a>
+                  </td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <td colspan="5">Total: 2 usuários</td>
+                </tr>
+              </tfoot>
+            </table>
+          </div>
+        </article>
 
-            <article class="card">
-                <h3>Conteúdo Textual</h3>
+        <article class="card">
+          <h3>Conteúdo Textual</h3>
 
-                <h4>Listas</h4>
-                <ul>
-                    <li>Item de lista não ordenada</li>
-                    <li>Outro item
-                        <ul>
-                            <li>Sub-item aninhado</li>
-                        </ul>
-                    </li>
-                </ul>
+          <h4>Listas</h4>
+          <ul>
+            <li>Item de lista não ordenada</li>
+            <li>
+              Outro item
+              <ul>
+                <li>Sub-item aninhado</li>
+              </ul>
+            </li>
+          </ul>
 
-                <ol type="I" start="1">
-                    <li>Primeiro item ordenado</li>
-                    <li>Segundo item ordenado</li>
-                </ol>
+          <ol type="I" start="1">
+            <li>Primeiro item ordenado</li>
+            <li>Segundo item ordenado</li>
+          </ol>
 
-                <dl>
-                    <dt>HTML</dt>
-                    <dd>HyperText Markup Language</dd>
-                    <dt>CSS</dt>
-                    <dd>Cascading Style Sheets</dd>
-                </dl>
+          <dl>
+            <dt>HTML</dt>
+            <dd>HyperText Markup Language</dd>
+            <dt>CSS</dt>
+            <dd>Cascading Style Sheets</dd>
+          </dl>
 
-                <h4>Citações</h4>
-                <blockquote cite="https://example.com">
-                    <p>Esta é uma citação longa de exemplo para demonstrar o estilo de blockquote.</p>
-                    <footer>— Autor, <cite>Fonte</cite></footer>
-                </blockquote>
+          <h4>Citações</h4>
+          <blockquote cite="https://example.com">
+            <p>
+              Esta é uma citação longa de exemplo para demonstrar o estilo de
+              blockquote.
+            </p>
+            <footer>— Autor, <cite>Fonte</cite></footer>
+          </blockquote>
 
-                <p>E esta é uma <q cite="https://example.com">citação curta inline</q>.</p>
+          <p>
+            E esta é uma <q cite="https://example.com">citação curta inline</q>.
+          </p>
 
-                <h4>Código</h4>
-                <p>Use o elemento <code>&lt;code&gt;</code> para código inline.</p>
-                <pre><code>function hello() {
+          <h4>Código</h4>
+          <p>Use o elemento <code>&lt;code&gt;</code> para código inline.</p>
+          <pre><code>function hello() {
     console.log("Hello, DevMedia!");
 }</code></pre>
 
-                <h4>Texto semântico</h4>
-                <p>
-                    <strong>Texto forte</strong>,
-                    <em>texto enfatizado</em>,
-                    <mark>texto destacado</mark>,
-                    <small>texto pequeno</small>,
-                    <del>texto removido</del>,
-                    <ins>texto inserido</ins>,
-                    <sub>subscrito</sub>,
-                    <sup>sobrescrito</sup>.
-                </p>
-            </article>
+          <h4>Texto semântico</h4>
+          <p>
+            <strong>Texto forte</strong>, <em>texto enfatizado</em>,
+            <mark>texto destacado</mark>, <small>texto pequeno</small>,
+            <del>texto removido</del>, <ins>texto inserido</ins>,
+            <sub>subscrito</sub>, <sup>sobrescrito</sup>.
+          </p>
+        </article>
 
-            <article class="card">
-                <h3>Mídia</h3>
-                <figure>
-                    <img
-                        src="https://via.placeholder.com/400x200"
-                        alt="Placeholder"
-                        width="400"
-                        height="200"
-                        loading="lazy"
-                    >
-                    <figcaption>Legenda da imagem</figcaption>
-                </figure>
+        <article class="card">
+          <h3>Mídia</h3>
+          <figure>
+            <img
+              src="https://via.placeholder.com/400x200"
+              alt="Placeholder"
+              width="400"
+              height="200"
+              loading="lazy"
+            />
+            <figcaption>Legenda da imagem</figcaption>
+          </figure>
 
-                <details>
-                    <summary>Clique para ver mais</summary>
-                    <p>Conteúdo adicional revelado com <code>&lt;details&gt;</code>.</p>
-                </details>
+          <details>
+            <summary>Clique para ver mais</summary>
+            <p>Conteúdo adicional revelado com <code>&lt;details&gt;</code>.</p>
+          </details>
 
-                <dialog id="modal" aria-labelledby="modal-title">
-                    <h2 id="modal-title">Modal de Exemplo</h2>
-                    <p>Este é um elemento dialog nativo.</p>
-                    <button id="close-modal">Fechar</button>
-                </dialog>
-                <button id="open-modal" class="btn">Abrir Modal</button>
+          <dialog id="modal" aria-labelledby="modal-title">
+            <h2 id="modal-title">Modal de Exemplo</h2>
+            <p>Este é um elemento dialog nativo.</p>
+            <button id="close-modal">Fechar</button>
+          </dialog>
+          <button id="open-modal" class="btn">Abrir Modal</button>
 
-                <progress value="70" max="100">70%</progress>
-                <meter value="0.8" min="0" max="1" low="0.3" high="0.7" optimum="0.9"></meter>
-            </article>
-        </section>
+          <progress value="70" max="100">70%</progress>
+          <meter
+            value="0.8"
+            min="0"
+            max="1"
+            low="0.3"
+            high="0.7"
+            optimum="0.9"
+          ></meter>
+        </article>
+      </section>
     </main>
 
     <aside class="sidebar">
-        <h3>Links Relacionados</h3>
-        <nav aria-label="Links relacionados">
-            <ul>
-                <li><a href="https://developer.mozilla.org" target="_blank" rel="noopener">MDN Web Docs</a></li>
-                <li><a href="https://github.com/joaomjbraga/devmedia-theme" target="_blank" rel="noopener">DevMedia Theme</a></li>
-            </ul>
-        </nav>
+      <h3>Links Relacionados</h3>
+      <nav aria-label="Links relacionados">
+        <ul>
+          <li>
+            <a
+              href="https://developer.mozilla.org"
+              target="_blank"
+              rel="noopener"
+              >MDN Web Docs</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://github.com/joaomjbraga/devmedia-theme"
+              target="_blank"
+              rel="noopener"
+              >DevMedia Theme</a
+            >
+          </li>
+        </ul>
+      </nav>
     </aside>
 
     <footer class="footer">
-        <p>&copy; 2026 DevMedia Theme. Todos os direitos reservados.</p>
-        <address>
-            <a href="mailto:contato@devmedia.com">contato@devmedia.com</a>
-        </address>
+      <p>&copy; 2026 DevMedia Theme. Todos os direitos reservados.</p>
+      <address>
+        <a href="mailto:contato@devmedia.com">contato@devmedia.com</a>
+      </address>
     </footer>
-</body>
+  </body>
 </html>
