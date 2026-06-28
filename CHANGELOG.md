@@ -259,6 +259,51 @@ Destacamento de sintaxe para:
 
 ---
 
+## [1.2.0] - 2026-06-28
+
+### 🎨 Adicionado
+- **Nova paleta mesclada no DevMedia Dark**: identidade DevMedia + cores WhatsApp + acentos Pop OS
+  - Cor principal da sintaxe: `#6B9E3A` (verde DevMedia mais claro)
+  - Funções em lavanda `#7574A5` (Pop OS) — substitui o ciano anterior
+  - Números em coral `#C05776` (Pop OS) — substitui o laranja anterior
+  - Variáveis em azul claro `#93C5FD`
+  - Strings em verde claro `#C2E69A`
+  - Comentários em cinza `#5C6670`
+  - Operadores em cinza azulado `#7A8A9A`
+  - Constantes mantêm o ciano original `#5FF5FF` (identidade DevMedia)
+  - Classes/Tipos mantêm o laranja original `#D4913A` (identidade DevMedia)
+  - Keywords mantêm o verde `#6B9E3A`
+- **16 novos tokens de UI no DevMedia Dark Modern**:
+  - `editorBracketHighlight` (6 cores + inesperado) — destaque de pares de brackets
+  - `editorInlayHint` (type + parameter) — dicas de tipo inline
+  - `editorGhostText` — texto fantasma do Copilot/autocomplete
+
+### ♿ Corrigido
+- **DevMedia Light**: 119 itens escurecidos para contraste ≥ 4.5:1 (WCAG AA):
+  - UI colors: 72 entradas atualizadas (activityBar, list, button, badge, tab, editor, terminal, git, symbol icons, breadcrumb, panel, picker, etc.)
+  - Syntax tokens: 34 cores escurecidas + 13 remoções de `fontStyle: bold`
+  - Mapeamento de cores:
+    - `#6F9A35` → `#2E6B15` (27 ocorrências)
+    - `#B85E00` → `#9A4E00` (16 ocorrências)
+    - `#0780A8` → `#006A8F` (9 ocorrências)
+    - `#C4730A` → `#8F5500` (16 ocorrências)
+    - `#7A8494` → `#555D6B` (4 ocorrências)
+    - `#1A8040` → `#166E35` (2 ocorrências)
+
+### 🧹 Removido
+- `fontStyle: bold` de todas as regras de token nos 3 temas (dark, modern, light)
+- `fontStyle: italic` removido de regras não-comment (dark/modern)
+- `fontStyle: strikethrough` removido de deprecated (dark/modern) — agora usa foreground + background
+- 22 arquivos de exemplo da pasta `examples/`
+- 3 screenshots antigos
+- Arquivo `themes/devmedia-dark-color-theme.json.bak`
+
+### 🔄 Refatorado
+- **DevMedia Dark**: TokenColors reescritos — nomes pt→en, ~95 entradas → ~123 entradas consolidadas com scopes por linguagem, scopes de SQL/PHP/Pascal/Vue/Angular consolidados
+- **DevMedia Dark Modern**: TokenColors reescritos (~99 → ~123 entradas) com mesma estrutura; 213 cores de UI ajustadas (backgrounds escurecidos, foregrounds refinados)
+
+---
+
 ## [Unreleased]
 
 ### 🚧 Em Desenvolvimento
@@ -303,4 +348,5 @@ Este projeto segue o [Semantic Versioning](https://semver.org/lang/pt-BR/):
 [1.1.1]: https://github.com/joaomjbraga/devmedia-theme/releases/tag/v1.1.1
 [1.1.2]: https://github.com/joaomjbraga/devmedia-theme/releases/tag/v1.1.2
 [1.1.3]: https://github.com/joaomjbraga/devmedia-theme/releases/tag/v1.1.3
-[Unreleased]: https://github.com/joaomjbraga/devmedia-theme/compare/v1.1.3...HEAD
+[1.2.0]: https://github.com/joaomjbraga/devmedia-theme/compare/v1.1.3...v1.2.0
+[Unreleased]: https://github.com/joaomjbraga/devmedia-theme/compare/v1.2.0...HEAD

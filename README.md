@@ -1,38 +1,12 @@
-# DevMedia Theme
-
 ![DevMedia](screenshots/Devmedia.jpeg)
 
-Tema não oficial para VS Code inspirado nas cores da [DevMedia](https://www.devmedia.com.br/) Plataforma para Programadores.
+Tema não oficial inspirado na [DevMedia](https://www.devmedia.com.br/) Plataforma para Programadores.
 
 ![DevMedia Theme](https://img.shields.io/badge/theme-DevMedia-6F9A35?style=for-the-badge)
 ![Version](https://img.shields.io/badge/version-1.1.3-blue?style=for-the-badge)
 ![License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)
 
 ![catalago](screenshots/catalago.png)
-
-## 🎯 Sobre
-
-Este tema foi criado por um estudante da DevMedia como iniciativa pessoal, inspirado nas cores e identidade visual da plataforma. **Não é um tema oficial da DevMedia.**
-
-## 📸 Screenshots
-
-### DevMedia Dark
-
-#### Example HTML
-
-![Dark Theme Preview](screenshots/dark-theme-html.png)
-
-### DevMedia Dark Modern
-
-#### Example HTML
-
-![Dark Theme Preview](screenshots/dark-modern-theme-html.png)
-
-### DevMedia Light
-
-#### Example HTML
-
-![Light Theme Preview](screenshots/light-theme-html.png)
 
 ## 🤝 Contribuindo
 
