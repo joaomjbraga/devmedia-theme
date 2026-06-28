@@ -298,9 +298,7 @@
     },
     {
       "scope": "strong",
-      "settings": {
-        "fontStyle": "bold"
-      }
+      "settings": {}
     },
     {
       "name": "Comment",
@@ -346,7 +344,10 @@
     },
     {
       "name": "Entity Name Class/Type",
-      "scope": ["entity.name.class", "entity.name.type.class"],
+      "scope": [
+        "entity.name.class",
+        "entity.name.type.class"
+      ],
       "settings": {
         "foreground": "#7574a5"
       }
@@ -376,7 +377,6 @@
       "name": "Entity Other Inherited Class",
       "scope": "entity.other.inherited-class",
       "settings": {
-        "fontStyle": "bold",
         "foreground": "#7574a5"
       }
     },
@@ -420,9 +420,7 @@
     {
       "name": "Markup Bold",
       "scope": "markup.bold",
-      "settings": {
-        "fontStyle": "bold"
-      }
+      "settings": {}
     },
     {
       "name": "Markup Changed",
@@ -657,8 +655,7 @@
         "source.c punctuation.definition.directive"
       ],
       "settings": {
-        "foreground": "#5E81AC",
-        "fontStyle": "bold"
+        "foreground": "#5E81AC"
       }
     },
     {
@@ -1104,7 +1101,9 @@
     },
     {
       "name": "[Python] Function Parameter",
-      "scope": ["source.python variable.parameter.function.language"],
+      "scope": [
+        "source.python variable.parameter.function.language"
+      ],
       "settings": {
         "foreground": "#bbbbbb"
       }
@@ -1202,7 +1201,10 @@
     },
     {
       "name": "[TypeScript] Variables",
-      "scope": ["source.ts support.variable", "source.tsx support.variable"],
+      "scope": [
+        "source.ts support.variable",
+        "source.tsx support.variable"
+      ],
       "settings": {
         "foreground": "#bbbbbb"
       }
