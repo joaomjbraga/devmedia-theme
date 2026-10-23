@@ -3,7 +3,7 @@
 Tema não oficial inspirado na [DevMedia](https://www.devmedia.com.br/) Plataforma para Programadores.
 
 ![DevMedia Theme](https://img.shields.io/badge/theme-DevMedia-6F9A35?style=for-the-badge)
-![Version](https://img.shields.io/badge/version-1.1.3-blue?style=for-the-badge)
+![Version](https://img.shields.io/badge/version-1.2.0-blue?style=for-the-badge)
 ![License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)
 
 ![catalago](screenshots/catalago.png)
@@ -28,6 +28,14 @@ Contribuições são bem-vindas! Sinta-se à vontade para:
 ## 📝 Changelog
 
 Veja o arquivo [CHANGELOG.md](CHANGELOG.md) para detalhes sobre as versões e atualizações.
+
+## Validação
+
+Com o Node.js instalado, valide o manifesto e os temas antes de abrir um pull request:
+
+```bash
+npm run validate
+```
 
 ## ⚠️ Aviso
 
