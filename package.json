@@ -19,7 +19,8 @@
   ],
   "scripts": {
     "validate": "node scripts/validate-themes.mjs",
-    "prepublishOnly": "npm run validate"
+    "prepublishOnly": "npm run validate",
+    "generate": "npx @vscode/vsce package"
   },
   "sponsor": {
     "url": "https://github.com/sponsors/joaomjbraga"
