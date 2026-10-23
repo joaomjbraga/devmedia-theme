@@ -25,10 +25,6 @@ Contribuições são bem-vindas! Sinta-se à vontade para:
 - Adicionar variações de tema (ex: alto contraste)
 - Reportar bugs ou inconsistências
 
-## 📝 Changelog
-
-Veja o arquivo [CHANGELOG.md](CHANGELOG.md) para detalhes sobre as versões e atualizações.
-
 ## Validação
 
 Com o Node.js instalado, valide o manifesto e os temas antes de abrir um pull request:
